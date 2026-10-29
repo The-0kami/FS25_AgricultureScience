@@ -1,47 +1,63 @@
 # Agriculture Science Pack
 
-**Automatisierung, intelligentes Parken und Fahrzeugservice für Farming Simulator 25.**
+**Farming Simulator 25 · Documentation for development candidates / Dokumentation der Testkandidaten**
 
-Agriculture Science vereint zwei Mods mit drei eng zusammenarbeitenden Systemen:
+[Deutsch](#deutsch) | [English](#english) | [Builds & SHA-256](docs/BUILD_STATUS.md)
 
-- **A.P.S. – Advanced Parking Sequence:** Bis zu zwei direkt angehängte Geräte automatisch abstellen und abkuppeln, anschließend das Fahrzeug parken. Unterstützte AutoDrive-Park- und Jobende-Übergänge.
-- **A.S.S. – Autonomous Service Supervisor:** Bereits Bestandteil von APS. Unterstützte Wasch-, Reparatur- und Tank-/Ladeservices mit Auswahl und Reservierung geeigneter Service-Bays und Rückkehr in den ursprünglichen Ablauf.
-- **L.E.G.S. – Logical Entrance Guidance System:** Bestandteil von SmartGate. Automatische Torsteuerung und Voröffnung entlang AD-Routen, Trigger- und Sicherheitskonfiguration sowie Service-Bay-Verwaltung.
+## Deutsch
 
-## Entwicklungsstand
+**Zwei ZIPs, drei Systeme:** `FS25_APS_AgricultureScience.zip` enthält **A.P.S. – Advanced Parking Sequence** und **A.S.S. – Autonomous Service Supervisor**. `FS25_SmartGate_AgricultureScience.zip` enthält **L.E.G.S. – Logical Entrance Guidance System**.
 
-**Agriculture Science Pack 1.0 – Preview-Vorbereitung.**
+- **APS:** Bis zu zwei direkt angehängte Geräte zu AutoDrive-Parkzielen bringen, abkuppeln, danach Fahrzeug parken; unterstützte manuelle und Jobende-Übergänge.
+- **LEGS:** Tore/Interactables, individuelle Trigger und Sicherheitszonen, AD-Voröffnung, Provider und Service-Bays.
+- **ASS:** Unterstützte WASH-, REPAIR-/Hebebühnen- und REFUEL-/CHARGE-Services, Bay-Reservierungen und Serviceübergaben, optionale private Ticketdrucker-Anzeige.
 
-Die abschließende SP-/Dedicated-Server-Abnahme sowie einzelne Lizenz- und Assetfreigaben stehen noch aus. **In diesem Repository wurde noch kein freigegebenes Paket-Release angelegt.**
+**Status: Entwicklungs-/Preview-Dokumentation – keine finale 1.0-Freigabe.** Die letzte **installierte** Kombination ist nicht identisch mit dem neuesten Kandidaten: Der SmartGate-Fix vom **29.10.2026** zur stabilen AD-Zielidentität ist **automatisiert geprüft, aber weder installiert noch im Spiel/Dedi bestätigt**. Bei späterem Einsatz müssen bestehende Bay-Ziele einmal neu ausgewählt werden. Gleiche Modversion `1.0.0.0` bedeutet nicht bytegleiche ZIPs. [Details und Prüfsummen](docs/BUILD_STATUS.md).
 
-## Downloads
+**Voraussetzungen:** LS25 (Teststand 1.25.0.0), AutoDrive (Referenz 3.0.1.4) für Fahrten, beide AS-Mods für ASS-Service; Courseplay optional. Nicht alle Gebäude, Energietypen, Geräte oder MP-Fälle sind abgenommen.
 
-Nach gesonderter Freigabe werden Downloads unter [GitHub Releases](../../releases) bereitgestellt. Ein GitHub-Quellcodearchiv ist keine installierbare LS25-Mod.
+### Anleitungen auf Deutsch
 
-## Voraussetzungen
+- [Installation, Update, Dedicated Server](docs/de/INSTALLATION.md)
+- [APS: Parken und Abkuppeln](docs/de/TUTORIAL_APS.md)
+- [LEGS: Tore, Trigger und Safety](docs/de/TUTORIAL_LEGS.md)
+- [ASS: Service-Bays, WASH, REPAIR und REFUEL](docs/de/TUTORIAL_ASS.md)
+- [AD-Zielmigration für neueren SG-Kandidaten](docs/de/MIGRATION_AD_TARGETS.md)
+- [Fehlerdiagnose und Bugreports](docs/de/TROUBLESHOOTING.md)
+- [Buildstatus und Hashes](docs/BUILD_STATUS.md)
 
-- **Farming Simulator 25** – zuletzt dokumentierter SP-Teststand: 1.25.0.0.
-- **AutoDrive** für APS-/A.S.S.-Fahrten – Referenzversion 3.0.1.4; nicht enthalten.
-- **APS und SmartGate** gemeinsam für A.S.S.-Serviceabläufe. Basis-Parkfunktionen beziehungsweise Torsteuerung bleiben unabhängig nutzbar.
-- Tatsächlich unterstützte und korrekt verknüpfte Serviceanlagen.
-- **Courseplay** optional; nicht alle Modi vollständig abgenommen.
+## English
 
-## Dokumentation
+**Two ZIPs, three systems:** `FS25_APS_AgricultureScience.zip` includes **A.P.S. – Advanced Parking Sequence** plus **A.S.S. – Autonomous Service Supervisor**. `FS25_SmartGate_AgricultureScience.zip` includes **L.E.G.S. – Logical Entrance Guidance System**.
 
-- [Installation](docs/INSTALLATION.md)
-- [Funktionsübersicht](docs/FEATURES.md)
-- [Kompatibilität](docs/COMPATIBILITY.md)
-- [Bekannte Einschränkungen](docs/KNOWN_ISSUES.md)
-- [Changelog](CHANGELOG.md)
+- **APS:** Drive up to two suitable directly attached implements to AutoDrive parking destinations, detach, then park the vehicle; supported manual and job-end interception.
+- **LEGS:** Gates/interactables, configurable trigger and safety regions, AD pre-opening, service providers and bays.
+- **ASS:** Supported WASH, REPAIR/lift and REFUEL/CHARGE services, bay reservations, service handoff and optional private printer receipts.
 
-## Fehler und Vorschläge
+**Status: development/preview documentation, not a final 1.0 release.** The latest **installed** pair differs from the newest candidate. SmartGate's **29 October 2026** stable AD destination identity fix passed automated tests but is **not installed or verified in-game/on Dedi**. Existing bay destinations require one deliberate re-selection if that candidate is later installed. The shared mod version `1.0.0.0` does not mean identical binaries. See [build matrix](docs/BUILD_STATUS.md).
 
-Bitte [GitHub Issues](../../issues) verwenden. Für reproduzierbare Fehler Spielversion, Mod-Version, AutoDrive-Version, SP/MP/Dedi, konkrete Schritte und relevante Ausschnitte aus `log.txt` nennen. Vor dem Teilen private Informationen entfernen.
+**Requirements:** FS25 (documented test 1.25.0.0), AutoDrive (reference 3.0.1.4) for driving, both AS mods for ASS services; Courseplay optional. Not every building, energy type, implement or multiplayer case is verified.
 
-## Rechte
+### English guides
 
-Die endgültigen Projekt- und Drittanbieter-Lizenzhinweise werden vor einem öffentlichen Paket-Release ergänzt. Es wird hiermit **keine pauschale Lizenz für alle Code- und Mediendateien** eingeräumt.
+- [Install, update and dedicated servers](docs/en/INSTALLATION.md)
+- [APS: parking and detaching](docs/en/TUTORIAL_APS.md)
+- [LEGS: gates, triggers and safety](docs/en/TUTORIAL_LEGS.md)
+- [ASS: bays, WASH, REPAIR and REFUEL](docs/en/TUTORIAL_ASS.md)
+- [AD destination migration for newer SG candidate](docs/en/MIGRATION_AD_TARGETS.md)
+- [Troubleshooting and bug reports](docs/en/TROUBLESHOOTING.md)
+- [Build status and hashes](docs/BUILD_STATUS.md)
 
----
+## Downloads / Veröffentlichungen
+
+**In diesem Repository wurden noch keine Mod-ZIPs oder Releases veröffentlicht. / No mod ZIPs or releases have been published in this repository yet.** A GitHub auto-generated source archive is not an installable game mod. [Releases](../../releases) will be used only after separate approval.
+
+## Rechte / Rights
+
+Default voice/music redistribution was confirmed by the project owner; this does **not** authorize sharing private voice packs or unrelated media. CC0 printer SFX have separately documented source credits. Third-party code/graphic notices must be respected. **No blanket license is granted for all project assets.**
+
+## Feedback
+
+Use [GitHub Issues](../../issues) with the **actual ZIP SHA-256**, game/AD versions, SP/MP/Dedi context, reproducing steps and a **redacted** current log.
 
 *Agriculture Science – Automate smarter. Farm better.*
