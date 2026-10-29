@@ -6,11 +6,13 @@
 
 ## Deutsch
 
-**Zwei ZIPs, drei Systeme:** `FS25_APS_AgricultureScience.zip` enthält **A.P.S. – Advanced Parking Sequence** und **A.S.S. – Autonomous Service Supervisor**. `FS25_SmartGate_AgricultureScience.zip` enthält **L.E.G.S. – Logical Entrance Guidance System**.
+**Drei Systeme, ein gemeinsamer Ablauf.** Agriculture Science verbindet automatisiertes Fahrzeugparken, intelligente Torsteuerung und autonome Fahrzeugwartung.
 
-- **APS:** Bis zu zwei direkt angehängte Geräte zu AutoDrive-Parkzielen bringen, abkuppeln, danach Fahrzeug parken; unterstützte manuelle und Jobende-Übergänge.
-- **LEGS:** Tore/Interactables, individuelle Trigger und Sicherheitszonen, AD-Voröffnung, Provider und Service-Bays.
-- **ASS:** Unterstützte WASH-, REPAIR-/Hebebühnen- und REFUEL-/CHARGE-Services, Bay-Reservierungen und Serviceübergaben, optionale private Ticketdrucker-Anzeige.
+- **A.P.S. – Advanced Parking Sequence:** Koordiniert AutoDrive-Parkabläufe, das Abstellen und Abkuppeln von bis zu zwei direkt angehängten Geräten sowie die anschließende Fahrzeugparkfahrt.
+- **L.E.G.S. – Logical Entrance Guidance System:** Steuert Tore und Interactables und stellt die Infrastruktur mit Servicebereichen, Bays und Reservierungen bereit.
+- **A.S.S. – Autonomous Service Supervisor:** Verbindet Fahrzeugabläufe und Serviceinfrastruktur, um unterstützte Wasch-, Reparatur-, Tank- und Ladevorgänge zu koordinieren. Optional zeigt es lokale Servicebelege an.
+
+**Technischer Paketinhalt:** Zwei Mod-ZIPs: `FS25_APS_AgricultureScience.zip` (mit A.S.S.-Steuerlogik) und `FS25_SmartGate_AgricultureScience.zip` (L.E.G.S.-Serviceinfrastruktur). Für A.S.S.-Services arbeiten beide zusammen.
 
 **Status: Entwicklungs-/Preview-Dokumentation – keine finale 1.0-Freigabe.** Der SmartGate-Kandidat `SG_InteractionDescription_20261029` enthält die stabile AD-Zielidentität und die bereinigte Interactive-Beschreibungszeile. Er ist **lokal installiert und automatisiert geprüft, aber noch nicht im Spiel/Dedi bestätigt**. Das ist keine Aussage über die Installation auf fremden Servern. Bestehende Bay-Ziele müssen einmal neu ausgewählt werden. Gleiche Modversion `1.0.0.0` bedeutet nicht bytegleiche ZIPs. [Details und Prüfsummen](docs/BUILD_STATUS.md).
 
@@ -29,11 +31,13 @@
 
 ## English
 
-**Two ZIPs, three systems:** `FS25_APS_AgricultureScience.zip` includes **A.P.S. – Advanced Parking Sequence** plus **A.S.S. – Autonomous Service Supervisor**. `FS25_SmartGate_AgricultureScience.zip` includes **L.E.G.S. – Logical Entrance Guidance System**.
+**Three systems. One workflow.** Agriculture Science brings together automated vehicle parking, intelligent gate control and autonomous servicing.
 
-- **APS:** Drive up to two suitable directly attached implements to AutoDrive parking destinations, detach, then park the vehicle; supported manual and job-end interception.
-- **LEGS:** Gates/interactables, configurable trigger and safety regions, AD pre-opening, service providers and bays.
-- **ASS:** Supported WASH, REPAIR/lift and REFUEL/CHARGE services, bay reservations, service handoff and optional private printer receipts.
+- **A.P.S. – Advanced Parking Sequence:** Coordinates AutoDrive parking, detaching up to two suitable directly attached implements, and driving the vehicle to its parking destination.
+- **L.E.G.S. – Logical Entrance Guidance System:** Controls gates and interactables and provides service-area infrastructure, bays and reservations.
+- **A.S.S. – Autonomous Service Supervisor:** Connects vehicle workflows with service infrastructure to coordinate supported washing, repair, refueling and charging. Optional local service receipts are available.
+
+**Technical package contents:** Two mod ZIPs: `FS25_APS_AgricultureScience.zip` (including ASS coordination logic) and `FS25_SmartGate_AgricultureScience.zip` (LEGS service infrastructure). Both are used together for ASS services.
 
 **Status: development/preview documentation, not a final 1.0 release.** SmartGate candidate `SG_InteractionDescription_20261029` contains stable AD destination identity and the cleaned-up interactable description row. It is **locally installed and automatically tested, but not yet verified in-game/on Dedi**. This does not describe deployment to other servers. Existing bay destinations require one deliberate re-selection. The shared mod version `1.0.0.0` does not mean identical binaries. See [build matrix](docs/BUILD_STATUS.md).
 
