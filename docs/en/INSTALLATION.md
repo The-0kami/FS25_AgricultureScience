@@ -1,6 +1,8 @@
 # Installation and updates – Agriculture Science
 
-> **As of 29 October 2026:** Documentation for development candidates, **not a release** in this repository. The latest SmartGate AD target identity fix is **not installed or verified in-game**. See [build status](../BUILD_STATUS.md).
+> **About these images:** Source-derived UI illustrations dated 29 October 2026 with demo data, not in-game screenshots. Engine fonts, colors and native windows may differ. Settings are split into readable pages for documentation; the game uses scrolling. [Image provenance and limitations](../UI_CATALOG.md).
+
+> **As of 29 October 2026:** Documentation for development candidates, **not a release** in this repository. The latest SmartGate AD target identity fix is **locally installed, but not verified in-game or on Dedi**. See [build status](../BUILD_STATUS.md).
 
 ## Packages and prerequisites
 
@@ -27,7 +29,7 @@ There are **two** mod ZIPs: `FS25_APS_AgricultureScience.zip` (APS **plus ASS**)
 1. Record current ZIP hashes and create backups.
 2. Select a compatible pair of ZIPs; do not leave duplicate versions installed.
 3. Verify existing gates, triggers, service sources and AD destinations in your savegame.
-4. **Only for the not-yet-installed SmartGate candidate dated 29 October:** Re-select every legacy bay AD destination with a positive index from the live list once, to capture its name and coordinates. Do not silently trust a stale index. See [migration guide](MIGRATION_AD_TARGETS.md).
+4. **For the 29 October SmartGate identity candidate and its successor:** Re-select every legacy bay AD destination with a positive index from the live list once, to capture its name and coordinates. Do not silently trust a stale index. See [migration guide](MIGRATION_AD_TARGETS.md).
 5. Test a single vehicle and bay before enabling automated jobs.
 
 ## External sound packs
@@ -37,3 +39,16 @@ Custom voice packs live outside the mod ZIP at `modSettings/APS_sounds/voices/`.
 ## Notes
 
 FS25 `1.25.0.0` is a documented test version, **not a proven universal minimum**. Do not describe the new target identity fix as functional in-game before installation and native tests.
+
+
+
+![Agriculture Science overview with three available module cards.](../assets/ui/common/as_modules_en.png)
+
+*Agriculture Science overview with three available module cards.*
+
+Disabled cards may indicate a missing module, inactive session selection, missing dependency or unavailable registered view. Read the specific reason.
+
+
+![Example of a disabled A.S.S. card when its view is not ready.](../assets/ui/common/as_module_unavailable_en.png)
+
+*Example of a disabled A.S.S. card when its view is not ready.*

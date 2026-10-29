@@ -10,3 +10,11 @@
 - No runtime sources or archives changed; no version increment, public release or tag.
 
 See [candidate build matrix](docs/BUILD_STATUS.md). This changelog describes documentation/candidates, **not a published stable 1.0**.
+
+
+## 2026-10-29 – Illustrated documentation proposal
+
+- Added matching DE/EN source-derived illustrations to existing APS, LEGS, ASS, installation, migration and troubleshooting guides.
+- Added a screened image inventory, provenance, lossless optimization sizes and explicit missing-native-screenshot list.
+- Updated local SmartGate installation status to the later `SG_InteractionDescription_20261029` candidate; native target-identity verification remains pending.
+- Documentation only: no mod ZIPs, runtime changes, release, tag or deployment.

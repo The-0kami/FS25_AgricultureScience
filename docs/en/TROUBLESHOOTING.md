@@ -1,10 +1,12 @@
 # Troubleshooting and bug reports
 
+> **About these images:** Source-derived UI illustrations dated 29 October 2026 with demo data, not in-game screenshots. Engine fonts, colors and native windows may differ. Settings are split into readable pages for documentation; the game uses scrolling. [Image provenance and limitations](../UI_CATALOG.md).
+
 Identify mod ZIPs by **SHA-256**, not only their shared `1.0.0.0` version. See [build matrix](../BUILD_STATUS.md). Record LS25/AD versions, SP/Host/Dedi, vehicle/attachments, job context and a fresh redacted log.
 
 | Symptom | First checks |
 |---|---|
-| **Driving to the wrong service destination** | Check the actual SG build, current AD list and saved bay target. In the **not-yet-installed 29 October candidate**, **re-select existing positive targets once** to capture name/position identity. See [migration](MIGRATION_AD_TARGETS.md). |
+| **Driving to the wrong service destination** | Check the actual SG build, current AD list and saved bay target. In the **29 October identity candidate and its successor**, **re-select existing positive targets once** to capture name/position identity. See [migration](MIGRATION_AD_TARGETS.md). |
 | **No eligible provider/source** | Verify supported native source, provider volume, farm access, `OPEN`, energy type and actual trigger. Decorative tanks are not valid sources; public stations still require native permission. |
 | **Bay UNKNOWN** | UNKNOWN is conservative, **not FREE**. Check geometry, local objects/pallets, tipped bodies and occupancy. Do not attribute remote vehicles without evidence or ignore genuine local obstacles. |
 | **Bay busy/reserved** | Distinguish physical `OCCUPIED` from separate `RESERVED` lease. Retry later: **no active executing service queue** exists. |
@@ -26,3 +28,9 @@ Identify mod ZIPs by **SHA-256**, not only their shared `1.0.0.0` version. See [
 - For the new destination identity scheme: was the AD destination explicitly re-selected after installation?
 
 Automated regression results are **not** evidence of native in-game or Dedi success. Do not present hypotheses as established causes.
+
+
+
+![UNKNOWN occupancy: not available, even when operational state is OPEN.](../assets/ui/ass/ass_bay_unknown_en.png)
+
+*UNKNOWN occupancy: not available, even when operational state is OPEN.*

@@ -1,6 +1,8 @@
 # Migration: AD service destinations after marker changes
 
-> **IMPORTANT – 29 October 2026:** This guide concerns the **new SmartGate candidate** `SG_AD_TargetIdentity_20261029`. It is **not installed**, has only automated tests, and is **not yet verified in-game or on Dedi**. Do not assume the fix is already deployed.
+> **About these images:** Source-derived UI illustrations dated 29 October 2026 with demo data, not in-game screenshots. Engine fonts, colors and native windows may differ. Settings are split into readable pages for documentation; the game uses scrolling. [Image provenance and limitations](../UI_CATALOG.md).
+
+> **IMPORTANT – 29 October 2026:** Target identity is included in successor `SG_InteractionDescription_20261029`. It has been installed locally and verified by SHA-256; native in-game/Dedi verification of the new fix is still pending. Local installation does not update a remote server.
 
 ## Background
 
@@ -28,6 +30,12 @@ The previous bay AD destination number was a **mutable list position**, not a st
 
 **Preserved:** Provider and bay regions, linked native sources, dimensions and capabilities. The full bay setup need not be recreated.
 
+
+
+![Selected bay AD target: manual selection, search, refresh and nearby-marker suggestion.](../assets/ui/ass/ass_ad_destination_en.png)
+
+*Selected bay AD target: manual selection, search, refresh and nearby-marker suggestion.*
+
 ## If dispatch is refused
 
 - UNKNOWN and blocked dispatch may be **correct safety behavior**, not proof of a new path error.
@@ -36,3 +44,4 @@ The previous bay AD destination number was a **mutable list position**, not a st
 - Do not claim a specific historical AD edit caused the earlier issue unless confirmed.
 
 See [build status](../BUILD_STATUS.md) · [troubleshooting](TROUBLESHOOTING.md).
+

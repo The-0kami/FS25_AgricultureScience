@@ -12,7 +12,7 @@
 - **LEGS:** Tore/Interactables, individuelle Trigger und Sicherheitszonen, AD-Voröffnung, Provider und Service-Bays.
 - **ASS:** Unterstützte WASH-, REPAIR-/Hebebühnen- und REFUEL-/CHARGE-Services, Bay-Reservierungen und Serviceübergaben, optionale private Ticketdrucker-Anzeige.
 
-**Status: Entwicklungs-/Preview-Dokumentation – keine finale 1.0-Freigabe.** Die letzte **installierte** Kombination ist nicht identisch mit dem neuesten Kandidaten: Der SmartGate-Fix vom **29.10.2026** zur stabilen AD-Zielidentität ist **automatisiert geprüft, aber weder installiert noch im Spiel/Dedi bestätigt**. Bei späterem Einsatz müssen bestehende Bay-Ziele einmal neu ausgewählt werden. Gleiche Modversion `1.0.0.0` bedeutet nicht bytegleiche ZIPs. [Details und Prüfsummen](docs/BUILD_STATUS.md).
+**Status: Entwicklungs-/Preview-Dokumentation – keine finale 1.0-Freigabe.** Der SmartGate-Kandidat `SG_InteractionDescription_20261029` enthält die stabile AD-Zielidentität und die bereinigte Interactive-Beschreibungszeile. Er ist **lokal installiert und automatisiert geprüft, aber noch nicht im Spiel/Dedi bestätigt**. Das ist keine Aussage über die Installation auf fremden Servern. Bestehende Bay-Ziele müssen einmal neu ausgewählt werden. Gleiche Modversion `1.0.0.0` bedeutet nicht bytegleiche ZIPs. [Details und Prüfsummen](docs/BUILD_STATUS.md).
 
 **Voraussetzungen:** LS25 (Teststand 1.25.0.0), AutoDrive (Referenz 3.0.1.4) für Fahrten, beide AS-Mods für ASS-Service; Courseplay optional. Nicht alle Gebäude, Energietypen, Geräte oder MP-Fälle sind abgenommen.
 
@@ -24,6 +24,7 @@
 - [ASS: Service-Bays, WASH, REPAIR und REFUEL](docs/de/TUTORIAL_ASS.md)
 - [AD-Zielmigration für neueren SG-Kandidaten](docs/de/MIGRATION_AD_TARGETS.md)
 - [Fehlerdiagnose und Bugreports](docs/de/TROUBLESHOOTING.md)
+- [Bildnachweis und UI-Galerie](docs/UI_CATALOG.md)
 - [Buildstatus und Hashes](docs/BUILD_STATUS.md)
 
 ## English
@@ -34,7 +35,7 @@
 - **LEGS:** Gates/interactables, configurable trigger and safety regions, AD pre-opening, service providers and bays.
 - **ASS:** Supported WASH, REPAIR/lift and REFUEL/CHARGE services, bay reservations, service handoff and optional private printer receipts.
 
-**Status: development/preview documentation, not a final 1.0 release.** The latest **installed** pair differs from the newest candidate. SmartGate's **29 October 2026** stable AD destination identity fix passed automated tests but is **not installed or verified in-game/on Dedi**. Existing bay destinations require one deliberate re-selection if that candidate is later installed. The shared mod version `1.0.0.0` does not mean identical binaries. See [build matrix](docs/BUILD_STATUS.md).
+**Status: development/preview documentation, not a final 1.0 release.** SmartGate candidate `SG_InteractionDescription_20261029` contains stable AD destination identity and the cleaned-up interactable description row. It is **locally installed and automatically tested, but not yet verified in-game/on Dedi**. This does not describe deployment to other servers. Existing bay destinations require one deliberate re-selection. The shared mod version `1.0.0.0` does not mean identical binaries. See [build matrix](docs/BUILD_STATUS.md).
 
 **Requirements:** FS25 (documented test 1.25.0.0), AutoDrive (reference 3.0.1.4) for driving, both AS mods for ASS services; Courseplay optional. Not every building, energy type, implement or multiplayer case is verified.
 
@@ -46,6 +47,7 @@
 - [ASS: bays, WASH, REPAIR and REFUEL](docs/en/TUTORIAL_ASS.md)
 - [AD destination migration for newer SG candidate](docs/en/MIGRATION_AD_TARGETS.md)
 - [Troubleshooting and bug reports](docs/en/TROUBLESHOOTING.md)
+- [Image provenance and UI gallery](docs/UI_CATALOG.md)
 - [Build status and hashes](docs/BUILD_STATUS.md)
 
 ## Downloads / Veröffentlichungen
@@ -61,3 +63,4 @@ Default voice/music redistribution was confirmed by the project owner; this does
 Use [GitHub Issues](../../issues) with the **actual ZIP SHA-256**, game/AD versions, SP/MP/Dedi context, reproducing steps and a **redacted** current log.
 
 *Agriculture Science – Automate smarter. Farm better.*
+

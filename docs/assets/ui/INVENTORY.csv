@@ -1,0 +1,128 @@
+file,language,method,width,height,bytes,decision,reason
+02_Gate_Interactive/DE/gate_auto.png,de,LUA DRAW REPLAY,676,1084,68841,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+02_Gate_Interactive/DE/gate_manual.png,de,LUA DRAW REPLAY,676,1084,69582,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+02_Gate_Interactive/DE/gate_inverted.png,de,LUA DRAW REPLAY,676,1084,68736,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+02_Gate_Interactive/DE/gate_disabled.png,de,LUA DRAW REPLAY,676,1084,69319,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+02_Gate_Interactive/DE/interactive_tripwire.png,de,LUA DRAW REPLAY,676,992,66046,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+02_Gate_Interactive/DE/interactive_repeated.png,de,LUA DRAW REPLAY,676,992,66917,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+02_Gate_Interactive/DE/interactive_description.png,de,LUA DRAW REPLAY,676,1041,68600,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/DE/help_management.png,de,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,707,76909,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/DE/help_geometry.png,de,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,626,62749,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/DE/help_ad.png,de,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,599,54324,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/DE/help_services.png,de,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,815,97135,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+02_Gate_Interactive/EN/gate_auto.png,en,LUA DRAW REPLAY,676,1084,68711,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+02_Gate_Interactive/EN/gate_manual.png,en,LUA DRAW REPLAY,676,1084,69315,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+02_Gate_Interactive/EN/gate_inverted.png,en,LUA DRAW REPLAY,676,1084,68811,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+02_Gate_Interactive/EN/gate_disabled.png,en,LUA DRAW REPLAY,676,1084,68512,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+02_Gate_Interactive/EN/interactive_tripwire.png,en,LUA DRAW REPLAY,676,992,63441,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+02_Gate_Interactive/EN/interactive_repeated.png,en,LUA DRAW REPLAY,676,992,64697,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+02_Gate_Interactive/EN/interactive_description.png,en,LUA DRAW REPLAY,676,1041,66892,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/EN/help_management.png,en,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,626,60129,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/EN/help_geometry.png,en,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,599,53733,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/EN/help_ad.png,en,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,599,48685,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/EN/help_services.png,en,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,788,85124,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+04_Help_Dialogs/DE/text_provider.png,de,XML / NATIVE PROFILE RECONSTRUCTION,1148,568,22233,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+04_Help_Dialogs/DE/text_bay.png,de,XML / NATIVE PROFILE RECONSTRUCTION,1148,568,26062,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/DE/text_filter.png,de,XML / NATIVE PROFILE RECONSTRUCTION,1148,568,22129,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/EN/text_provider.png,en,XML / NATIVE PROFILE RECONSTRUCTION,1148,568,20660,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+04_Help_Dialogs/EN/text_bay.png,en,XML / NATIVE PROFILE RECONSTRUCTION,1148,568,25151,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/EN/text_filter.png,en,XML / NATIVE PROFILE RECONSTRUCTION,1148,568,22866,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/DE/SmartGate_InteractionDiscovery_message_0.png,de,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,545,46954,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/EN/SmartGate_InteractionDiscovery_message_0.png,en,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,518,40741,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/DE/SmartGate_InteractionDiscovery_message_2.png,de,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,383,28877,EXCLUDED,Reconstructed discovery prompt has simplified buttons; could misrepresent the actual confirmation workflow
+04_Help_Dialogs/EN/SmartGate_InteractionDiscovery_message_2.png,en,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,383,26401,EXCLUDED,Reconstructed discovery prompt has simplified buttons; could misrepresent the actual confirmation workflow
+05_Ticket_Printer/DE/start_requested_repair.png,de,LUA DRAW REPLAY,650,495,26126,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+05_Ticket_Printer/DE/end_completed_repair.png,de,LUA DRAW REPLAY,650,570,36226,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+05_Ticket_Printer/DE/end_completed_refuel.png,de,LUA DRAW REPLAY,650,666,46249,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+05_Ticket_Printer/DE/end_failed_wash.png,de,LUA DRAW REPLAY,650,495,25031,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+05_Ticket_Printer/DE/end_cancelled_repair.png,de,LUA DRAW REPLAY,650,495,25779,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+05_Ticket_Printer/DE/phase_feeding.png,de,LUA DRAW REPLAY,650,182,5864,EXCLUDED,Animation intermediate frame; static tutorial adds little and cannot demonstrate timing
+05_Ticket_Printer/DE/phase_printing.png,de,LUA DRAW REPLAY,650,348,16294,EXCLUDED,Animation intermediate frame; static tutorial adds little and cannot demonstrate timing
+05_Ticket_Printer/DE/phase_tear.png,de,LUA DRAW REPLAY,650,504,24846,EXCLUDED,Animation intermediate frame; static tutorial adds little and cannot demonstrate timing
+05_Ticket_Printer/DE/phase_drop.png,de,LUA DRAW REPLAY,650,456,20995,EXCLUDED,Animation intermediate frame; static tutorial adds little and cannot demonstrate timing
+05_Ticket_Printer/DE/phase_minimize.png,de,LUA DRAW REPLAY,650,456,16746,EXCLUDED,Animation intermediate frame; static tutorial adds little and cannot demonstrate timing
+06_Debug/DE/aps_debug_idle.png,de,LUA DRAW REPLAY,650,497,47977,EXCLUDED,Internal debug view; not public onboarding material
+05_Ticket_Printer/EN/start_requested_repair.png,en,LUA DRAW REPLAY,650,495,25342,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+05_Ticket_Printer/EN/end_completed_repair.png,en,LUA DRAW REPLAY,650,570,34160,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+05_Ticket_Printer/EN/end_completed_refuel.png,en,LUA DRAW REPLAY,650,666,43321,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+05_Ticket_Printer/EN/end_failed_wash.png,en,LUA DRAW REPLAY,650,495,23992,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+05_Ticket_Printer/EN/end_cancelled_repair.png,en,LUA DRAW REPLAY,650,495,24741,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+05_Ticket_Printer/EN/phase_feeding.png,en,LUA DRAW REPLAY,650,182,5864,EXCLUDED,Animation intermediate frame; static tutorial adds little and cannot demonstrate timing
+05_Ticket_Printer/EN/phase_printing.png,en,LUA DRAW REPLAY,650,348,16070,EXCLUDED,Animation intermediate frame; static tutorial adds little and cannot demonstrate timing
+05_Ticket_Printer/EN/phase_tear.png,en,LUA DRAW REPLAY,650,504,23817,EXCLUDED,Animation intermediate frame; static tutorial adds little and cannot demonstrate timing
+05_Ticket_Printer/EN/phase_drop.png,en,LUA DRAW REPLAY,650,456,20103,EXCLUDED,Animation intermediate frame; static tutorial adds little and cannot demonstrate timing
+05_Ticket_Printer/EN/phase_minimize.png,en,LUA DRAW REPLAY,650,456,16402,EXCLUDED,Animation intermediate frame; static tutorial adds little and cannot demonstrate timing
+06_Debug/EN/aps_debug_idle.png,en,LUA DRAW REPLAY,650,497,47977,EXCLUDED,Internal debug view; not public onboarding material
+03_Service_Editor/DE/state_closed.png,de,LUA DRAW REPLAY,676,897,57903,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+03_Service_Editor/DE/state_unknown.png,de,LUA DRAW REPLAY,676,897,58352,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+03_Service_Editor/DE/state_occupied_reserved.png,de,LUA DRAW REPLAY,676,897,60163,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+03_Service_Editor/DE/state_combined_services.png,de,LUA DRAW REPLAY,676,1026,68003,EXCLUDED,Artificial combined-capability fixture uses a wash source; could falsely suggest one source provides every service
+03_Service_Editor/DE/state_provider_geometry.png,de,LUA DRAW REPLAY,676,854,52086,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+03_Service_Editor/DE/state_no_bay.png,de,LUA DRAW REPLAY,676,767,44073,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+03_Service_Editor/DE/state_no_provider.png,de,LUA DRAW REPLAY,676,724,42934,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+02_Gate_Interactive/DE/config_marker.png,de,ORIGINAL OWN ASSET · neutral background,650,398,19121,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+02_Gate_Interactive/DE/inversion_marker.png,de,ORIGINAL OWN ASSET · neutral background,650,398,28999,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+02_Gate_Interactive/DE/trigger_zones_schematic.png,de,SOURCE GEOMETRY · SCHEMATIC PROJECTION,948,998,20621,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+03_Service_Editor/EN/state_closed.png,en,LUA DRAW REPLAY,676,897,57623,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+03_Service_Editor/EN/state_unknown.png,en,LUA DRAW REPLAY,676,897,57764,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+03_Service_Editor/EN/state_occupied_reserved.png,en,LUA DRAW REPLAY,676,897,59612,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+03_Service_Editor/EN/state_combined_services.png,en,LUA DRAW REPLAY,676,1026,68776,EXCLUDED,Artificial combined-capability fixture uses a wash source; could falsely suggest one source provides every service
+03_Service_Editor/EN/state_provider_geometry.png,en,LUA DRAW REPLAY,676,854,51071,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+03_Service_Editor/EN/state_no_bay.png,en,LUA DRAW REPLAY,676,767,42633,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+03_Service_Editor/EN/state_no_provider.png,en,LUA DRAW REPLAY,676,724,41908,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+02_Gate_Interactive/EN/config_marker.png,en,ORIGINAL OWN ASSET · neutral background,650,398,19121,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+02_Gate_Interactive/EN/inversion_marker.png,en,ORIGINAL OWN ASSET · neutral background,650,398,28999,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+02_Gate_Interactive/EN/trigger_zones_schematic.png,en,SOURCE GEOMETRY · SCHEMATIC PROJECTION,948,998,20621,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+07_Voice_Overlay/neutral_idle.png,neutral,LUA DRAW REPLAY,650,307,27176,EXCLUDED,Neutral overlay example is safe but outside the service/gate tutorial scope; private Ordis assets never used
+07_Voice_Overlay/neutral_talking.png,neutral,LUA DRAW REPLAY,650,307,27411,EXCLUDED,Neutral overlay example is safe but outside the service/gate tutorial scope; private Ordis assets never used
+07_Voice_Overlay/neutral_glitch.png,neutral,LUA DRAW REPLAY,650,345,28272,EXCLUDED,Neutral overlay example is safe but outside the service/gate tutorial scope; private Ordis assets never used
+04_Help_Dialogs/DE/preopen_recalculate_confirm.png,de,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,356,28688,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/DE/audio_music_library.png,de,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,356,27901,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/DE/audio_music_folder.png,de,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,329,27342,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+08_Notifications/DE/aps_teach_required.png,de,SOURCE TEXT · NATIVE HUD SHELL APPROXIMATION,1198,278,18856,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+08_Notifications/DE/aps_teach_active.png,de,SOURCE TEXT · NATIVE HUD SHELL APPROXIMATION,1198,278,14091,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+08_Notifications/DE/aps_wash_skip_large.png,de,SOURCE TEXT · NATIVE HUD SHELL APPROXIMATION,1198,278,13409,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+08_Notifications/DE/aps_ass_wash_failed.png,de,SOURCE TEXT · NATIVE HUD SHELL APPROXIMATION,1198,278,14279,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/EN/preopen_recalculate_confirm.png,en,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,356,27439,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/EN/audio_music_library.png,en,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,356,27689,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+04_Help_Dialogs/EN/audio_music_folder.png,en,NATIVE DIALOG SHELL APPROXIMATION · actual source text,1088,328,25495,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+08_Notifications/EN/aps_teach_required.png,en,SOURCE TEXT · NATIVE HUD SHELL APPROXIMATION,1198,278,19642,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+08_Notifications/EN/aps_teach_active.png,en,SOURCE TEXT · NATIVE HUD SHELL APPROXIMATION,1198,278,14089,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+08_Notifications/EN/aps_wash_skip_large.png,en,SOURCE TEXT · NATIVE HUD SHELL APPROXIMATION,1198,278,13440,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+08_Notifications/EN/aps_ass_wash_failed.png,en,SOURCE TEXT · NATIVE HUD SHELL APPROXIMATION,1198,278,14327,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+01_Settings/DE/overview_all.png,de,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,336660,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+01_Settings/DE/aps_01.png,de,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,205901,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+01_Settings/DE/legs_01.png,de,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,221664,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+01_Settings/DE/legs_02.png,de,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,205553,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+01_Settings/DE/ass_01.png,de,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,217463,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+01_Settings/DE/ass_02.png,de,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,223491,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+01_Settings/DE/ass_03.png,de,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,209996,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+01_Settings/DE/audio_01.png,de,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,216288,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+01_Settings/DE/audio_02.png,de,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,216769,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+01_Settings/DE/audio_03.png,de,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,190229,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+01_Settings/DE/overview_aps_only.png,de,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,314095,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+01_Settings/DE/overview_legs_only.png,de,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,319375,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+01_Settings/DE/overview_not_installed.png,de,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,314180,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+01_Settings/DE/overview_ass_not_ready.png,de,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,333180,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+01_Settings/EN/overview_all.png,en,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,332795,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+01_Settings/EN/aps_01.png,en,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,204214,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+01_Settings/EN/legs_01.png,en,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,220994,EXCLUDED,Fixture retains some German labels in English view; not used as a fully translated example
+01_Settings/EN/legs_02.png,en,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,203855,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+01_Settings/EN/ass_01.png,en,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,214110,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+01_Settings/EN/ass_02.png,en,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,219649,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+01_Settings/EN/ass_03.png,en,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,205587,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+01_Settings/EN/audio_01.png,en,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,212517,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+01_Settings/EN/audio_02.png,en,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,213856,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+01_Settings/EN/audio_03.png,en,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,189286,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+01_Settings/EN/overview_aps_only.png,en,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,309085,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+01_Settings/EN/overview_legs_only.png,en,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,315050,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+01_Settings/EN/overview_not_installed.png,en,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,309391,EXCLUDED,Redundant state or auxiliary view; omitted to keep tutorials focused
+01_Settings/EN/overview_ass_not_ready.png,en,XML + ACTUAL LUA CONTROL STATE RECONSTRUCTION,1648,1018,328484,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+03_Service_Editor/DE/service_management_de.png,de,LUA DRAW REPLAY (previous experiment),1391,1529,109705,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+03_Service_Editor/DE/service_geometry_de.png,de,LUA DRAW REPLAY (previous experiment),1391,1875,137182,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+03_Service_Editor/DE/service_ad_de.png,de,LUA DRAW REPLAY (previous experiment),1391,1270,95000,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+03_Service_Editor/DE/service_services_de.png,de,LUA DRAW REPLAY (previous experiment),1391,1788,137312,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+03_Service_Editor/EN/service_management_en.png,en,LUA DRAW REPLAY (previous experiment),1391,1529,106773,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+03_Service_Editor/EN/service_geometry_en.png,en,LUA DRAW REPLAY (previous experiment),1391,1875,133943,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+03_Service_Editor/EN/service_ad_en.png,en,LUA DRAW REPLAY (previous experiment),1391,1270,97783,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
+03_Service_Editor/EN/service_services_en.png,en,LUA DRAW REPLAY (previous experiment),1391,1788,137355,SELECTED,Relevant bilingual tutorial step; source-derived demo; no private visible data
