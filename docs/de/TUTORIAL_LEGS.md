@@ -1,5 +1,7 @@
 # Tutorial: L.E.G.S. – Tore, Interactables und Servicebereiche
 
+> **Zu den Bildern:** Codebasierte UI-Abbildungen vom 29.10.2026 mit Beispieldaten, keine Ingame-Screenshots. Engine-Schrift, Farben und native Fenster können abweichen. Die Bildaufteilung der Settings ist für die Dokumentation paginiert; im Spiel wird gescrollt. [Bildnachweis und Grenzen](../UI_CATALOG.md).
+
 L.E.G.S. wird durch **SmartGate** bereitgestellt. Basis-Torsteuerung benötigt weder APS noch AD; die optionale AD-Voröffnung setzt AutoDrive voraus.
 
 ## 1. Konfigurationsmodus öffnen
@@ -9,6 +11,12 @@ L.E.G.S. wird durch **SmartGate** bereitgestellt. Basis-Torsteuerung benötigt w
 - **Strg+Umschalt+G:** Trigger-/Bereichsvisualisierung.
 - **Strg+B:** Blacklist-Verwaltung.
 - Die Konfiguration ist im Fahrzeug und zu Fuß möglich. Die Oberfläche lässt sich verschieben; Hilfetexte und getrennte Seitenfunktionen beachten.
+
+
+
+![Torprofil mit automatischer Voröffnung und Öffnen-, Schließen- und Safety-Maßen.](../assets/ui/legs/legs_gate_auto_de.png)
+
+*Torprofil mit automatischer Voröffnung und Öffnen-, Schließen- und Safety-Maßen.*
 
 ## 2. Tor oder Interactable konfigurieren
 
@@ -23,9 +31,38 @@ L.E.G.S. wird durch **SmartGate** bereitgestellt. Basis-Torsteuerung benötigt w
 5. Bei Interactables/Tripwires das spezielle Verhalten vom normalen Torbetrieb unterscheiden. Safety nicht entfernen, um Schließen zu erzwingen.
 6. Test mit langsamer Fahrzeuganfahrt, Durchfahrt, Stand im Safety-Bereich und anschließendem Verlassen; auf zuverlässiges Öffnen/Schließen achten.
 
+
+
+![Schematische Draufsicht: Cyan Öffnen, Violett Schließen, Rot Safety. Keine Spielweltprojektion.](../assets/ui/legs/legs_trigger_zones_de.png)
+
+*Schematische Draufsicht: Cyan Öffnen, Violett Schließen, Rot Safety. Keine Spielweltprojektion.*
+
+
+![Animationsrichtung invertieren ist EIN; die Annäherungserkennung bleibt gleich.](../assets/ui/legs/legs_gate_inverted_de.png)
+
+*Animationsrichtung invertieren ist EIN; die Annäherungserkennung bleibt gleich.*
+
+
+![Interactive-Profil mit Auslösung bei Einfahrt; ohne leere Erkannt-Zeile.](../assets/ui/legs/legs_interactive_tripwire_de.png)
+
+*Interactive-Profil mit Auslösung bei Einfahrt; ohne leere Erkannt-Zeile.*
+
+Die „Erkannt“-Zeile erscheint nur bei einer brauchbaren nativen Aktionsbeschreibung. Ohne diese Beschreibung wird sie weggelassen. Das beweist keine allgemeine Objektklassifizierung.
+
 ## 3. AutoDrive-Voröffnung
 
 Pro Objekt zwischen globalem, automatischem oder manuellem Vorlauf wählen. Die dokumentierte Automatik schätzt den Abstand aus **(Animationsdauer + 2 Sekunden) × 50 km/h**, begrenzt auf **10–500 m**. Das ist eine Näherung und keine zugesicherte tatsächliche Öffnungszeit bei jeder Geschwindigkeit. AD-Routen- und Erreichbarkeitsbedingungen prüfen.
+
+
+
+![Manueller Vorlauf pro Tor; der gezeigte Abstand ist ein Beispielwert.](../assets/ui/legs/legs_gate_manual_de.png)
+
+*Manueller Vorlauf pro Tor; der gezeigte Abstand ist ein Beispielwert.*
+
+
+![Globale Discovery- und Voröffnungsaktionen sowie Vorgabe für neue Tore.](../assets/ui/legs/legs_discovery_preopen_settings_de.png)
+
+*Globale Discovery- und Voröffnungsaktionen sowie Vorgabe für neue Tore.*
 
 ## 4. Service-Provider und Bays
 
@@ -37,8 +74,12 @@ Unter der Infrastruktur einen **Providerrahmen** um passende native Quellen lege
 
 Die Geometrieänderungen werden beim Schließen gesammelt gesichert, sofern Änderungen vorliegen. Eine synchrone neue Sicherung bei jedem Mausradschritt ist nicht das vorgesehene Verhalten.
 
+
+Die vollständige Serviceplatz-Einrichtung steht im [bebilderten A.S.S.-Tutorial](TUTORIAL_ASS.md).
+
 ## 5. Zielbindung und Migration
 
-Für den **neuesten, noch nicht installierten SmartGate-Testkandidaten vom 29.10.2026** siehe [AD-Zielmigration](MIGRATION_AD_TARGETS.md). Bereits gespeicherte Zielnummern benötigen **einmalige Neuauswahl** nach Installation dieses Kandidaten, damit Name und Position als Identität gespeichert werden. Der Fix ist noch nicht nativ abgenommen.
+Für den **SmartGate-Testkandidaten vom 29.10.2026** siehe [AD-Zielmigration](MIGRATION_AD_TARGETS.md). Bereits gespeicherte Zielnummern benötigen **einmalige Neuauswahl** nach Installation dieses Kandidaten, damit Name und Position als Identität gespeichert werden. Der Fix ist noch nicht nativ abgenommen.
 
 Weiter: [ASS-Konfiguration](TUTORIAL_ASS.md) · [Fehlerbehebung](TROUBLESHOOTING.md).
+

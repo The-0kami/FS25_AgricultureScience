@@ -1,6 +1,14 @@
 # Tutorial: A.P.S. – Advanced Parking Sequence
 
+> **About these images:** Source-derived UI illustrations dated 29 October 2026 with demo data, not in-game screenshots. Engine fonts, colors and native windows may differ. Settings are split into readable pages for documentation; the game uses scrolling. [Image provenance and limitations](../UI_CATALOG.md).
+
 APS coordinates parking for a tractor/truck and **up to two suitable directly attached implements**. AutoDrive handles navigation; APS controls the sequence and respects native detaching rules. ASS is bundled in the APS ZIP, while services additionally require LEGS.
+
+
+
+![Agriculture Science overview with three available module cards.](../assets/ui/common/as_modules_en.png)
+
+*Agriculture Science overview with three available module cards.*
 
 ## 1. Preparation
 
@@ -9,12 +17,26 @@ APS coordinates parking for a tractor/truck and **up to two suitable directly at
 3. Start with one ordinary tractor and **one** implement. Test turntable trailers, folded equipment and longer combinations later.
 4. Open **Agriculture Science → A.P.S.** and configure the desired manual and supported job-end parking options.
 
+
+
+![Global A.P.S. implement-parking and job-end takeover options.](../assets/ui/aps/aps_parking_settings_en.png)
+
+*Global A.P.S. implement-parking and job-end takeover options.*
+
 ## 2. Starting a parking sequence
 
 - **Ctrl+P** is the documented **rebindable start action**. It is not a generic start/cancel toggle, and user bindings may differ.
 - Existing AutoDrive HUD integration includes a cancellation path via **Shift + right-click** on the APS-enhanced parking button, unless another HUD action conflicts.
 - APS validates assignments, drives to the first implement destination, detaches using **native game conditions**, optionally parks the next suitable implement, then drives to the vehicle's parking target.
 - Some implement configurations use a teach/learning path. Compatibility with every modded implement is not promised.
+
+
+
+![Manual teaching required: actual message text in an approximated notification surface.](../assets/ui/aps/aps_teach_required_en.png)
+
+*Manual teaching required: actual message text in an approximated notification surface.*
+
+**Image gap:** AD parking-target assignment and the APS-enhanced AD parking button are not illustrated here. Verified native screenshots are still needed; the notification is not a full teaching walkthrough.
 
 ## 3. Optional services before parking
 
@@ -33,3 +55,4 @@ Observe an SP run without manually moving the vehicle. Verify actual native deta
 If parking stops unexpectedly, record vehicle, attachments, AD destinations, job context and a **fresh server log**. An older failure following a service-unavailable warning is not considered universally fixed.
 
 See [ASS](TUTORIAL_ASS.md) and [troubleshooting](TROUBLESHOOTING.md).
+

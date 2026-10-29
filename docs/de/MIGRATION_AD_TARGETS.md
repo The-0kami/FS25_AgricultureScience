@@ -1,6 +1,8 @@
 # Migration: AD-Serviceziele nach Markeränderungen
 
-> **WICHTIG – Stand 29.10.2026:** Dies betrifft den **neu erstellten SmartGate-Kandidaten** `SG_AD_TargetIdentity_20261029`. Er ist **noch nicht installiert**, nur automatisiert geprüft und **nicht im Spiel oder auf Dedi bestätigt**. Bitte nicht als bereits ausgerollten Fix verstehen.
+> **Zu den Bildern:** Codebasierte UI-Abbildungen vom 29.10.2026 mit Beispieldaten, keine Ingame-Screenshots. Engine-Schrift, Farben und native Fenster können abweichen. Die Bildaufteilung der Settings ist für die Dokumentation paginiert; im Spiel wird gescrollt. [Bildnachweis und Grenzen](../UI_CATALOG.md).
+
+> **WICHTIG – Stand 29.10.2026:** Die Zielidentität ist auch im Nachfolger `SG_InteractionDescription_20261029` enthalten. Dieser wurde lokal installiert und per SHA-256 geprüft; eine Ingame-/Dedi-Bestätigung des neuen Fixes liegt noch nicht vor. Eine lokale Installation bedeutet keine Aktualisierung eines entfernten Servers.
 
 ## Hintergrund
 
@@ -28,6 +30,12 @@ Bisher war die AD-Zielnummer in einer Service-Bay eine **veränderliche Listenpo
 
 **Unverändert bei der Migration:** Provider-/Bay-Bereiche, Quellen, Maße und Fähigkeiten bleiben erhalten; es ist keine komplette Neukonfiguration nötig.
 
+
+
+![AD-Ziel der ausgewählten Bay: manuelle Auswahl, Suche, Aktualisierung und räumlicher Vorschlag.](../assets/ui/ass/ass_ad_destination_de.png)
+
+*AD-Ziel der ausgewählten Bay: manuelle Auswahl, Suche, Aktualisierung und räumlicher Vorschlag.*
+
 ## Bei Problemen
 
 - UNKNOWN und verweigerter Dispatch sind **Sicherheitsreaktionen**, kein Beweis für einen weiteren Wegpunktfehler.
@@ -36,3 +44,4 @@ Bisher war die AD-Zielnummer in einer Service-Bay eine **veränderliche Listenpo
 - Keinen bestimmten historischen AD-Edit als Ursache behaupten, solange er nicht nachgewiesen ist.
 
 Siehe [Buildstatus](../BUILD_STATUS.md) · [Fehlerbehebung](TROUBLESHOOTING.md).
+

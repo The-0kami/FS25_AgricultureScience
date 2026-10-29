@@ -1,10 +1,12 @@
 # Fehlerdiagnose und Bugreports
 
+> **Zu den Bildern:** Codebasierte UI-Abbildungen vom 29.10.2026 mit Beispieldaten, keine Ingame-Screenshots. Engine-Schrift, Farben und native Fenster können abweichen. Die Bildaufteilung der Settings ist für die Dokumentation paginiert; im Spiel wird gescrollt. [Bildnachweis und Grenzen](../UI_CATALOG.md).
+
 Vor einem Test **Mod-ZIPs anhand SHA-256 identifizieren**, nicht nur `1.0.0.0` ablesen. [Build-Matrix](../BUILD_STATUS.md). LS25- und AD-Version, SP/Host/Dedi, Fahrzeug und Anbaugeräte, Auftrag und aktuelle bereinigte Logs dokumentieren.
 
 | Symptom | Was zuerst prüfen? |
 |---|---|
-| **Fahrt zum falschen Serviceort** | Tatsächlichen SG-Build, aktuelle AD-Liste und gespeichertes Bay-Ziel prüfen. Im **noch nicht installierten 29.10.-Kandidaten** alte positive Ziele **einmal neu wählen**, um Name/Position zu erfassen. [Migration](MIGRATION_AD_TARGETS.md). |
+| **Fahrt zum falschen Serviceort** | Tatsächlichen SG-Build, aktuelle AD-Liste und gespeichertes Bay-Ziel prüfen. Im **29.10.-Zielidentitätskandidaten und Nachfolger** alte positive Ziele **einmal neu wählen**, um Name/Position zu erfassen. [Migration](MIGRATION_AD_TARGETS.md). |
 | **Kein passender Provider/keine Quelle** | Native unterstützte Quelle, Providerrahmen, Farmrechte, `OPEN`, Energieart und echte Gebäudetrigger. Deko-Tanks sind keine Tankquelle; öffentliche Quellen benötigen native Freigabe. |
 | **Bay UNKNOWN** | UNKNOWN ist konservativ und **nicht FREE**. Geometrie, lokale Objekte/Paletten, gekippte Bodies und aktuelle Belegung prüfen. Entfernte Objekte außerhalb der Bay nicht pauschal verantwortlich machen; echte lokale Blocker nicht ignorieren. |
 | **Bay belegt/reserviert** | Physisches `OCCUPIED` und separate `RESERVED`-Lease prüfen. Anfrage später erneut auslösen: **keine aktive Service-Warteschlange**. |
@@ -26,3 +28,9 @@ Vor einem Test **Mod-ZIPs anhand SHA-256 identifizieren**, nicht nur `1.0.0.0` a
 - Bei neuer AD-Zielbindung: wurde das Ziel nach Installation bewusst neu ausgewählt?
 
 Automatisierte Regressionen sind kein Ingame-/Dedi-Beweis. Keine Erklärung als bestätigt bezeichnen, die lediglich eine plausible Vermutung ist.
+
+
+
+![Belegung UNKNOWN: keine Freigabe, auch wenn der Betrieb OPEN ist.](../assets/ui/ass/ass_bay_unknown_de.png)
+
+*Belegung UNKNOWN: keine Freigabe, auch wenn der Betrieb OPEN ist.*
