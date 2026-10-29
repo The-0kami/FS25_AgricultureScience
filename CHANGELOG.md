@@ -1,10 +1,12 @@
-# Changelog
+# Development documentation changelog / Änderungen
 
-## Agriculture Science Pack 1.0 – Preview (in Vorbereitung)
+## 2026-10-29 – Candidate documentation refresh (not a release)
 
-Geplanter Umfang der ausgewählten Testkandidaten:
-- APS inklusive A.S.S. sowie SmartGate inklusive L.E.G.S.
-- Erweiterte Park- und Serviceübergaben, Torsteuerung, Service-Bay-Verwaltung und optionale Beleganzeige.
-- Gemeinsame Einstellungen und Audiofunktionen.
+- Added full German and English walkthroughs for installation, APS, LEGS, ASS, AD destination migration and troubleshooting.
+- Documented two mod ZIPs containing three systems; current manual service options, repair lift behavior, refuel/charge limits, local receipt printing and audio rules.
+- Distinguished **installed** APS + SmartGate from **canonical APS without resume**, **29 October SmartGate candidate not installed**, and historical staging.
+- Documented SmartGate target-ID change: name+X/Z identity, conservative UNKNOWN/fail-closed behavior, one-time legacy AD destination re-selection, and still-pending native tests.
+- Clarified current LEGS gate trigger colors/pre-opening formula, bay physical state vs reservation, return routing and service queue limitations.
+- No runtime sources or archives changed; no version increment, public release or tag.
 
-**Noch nicht als finale stabile Version veröffentlicht.** Der veröffentlichte Umfang und die Prüfsummen werden erst mit dem tatsächlichen Release verbindlich festgelegt.
+See [candidate build matrix](docs/BUILD_STATUS.md). This changelog describes documentation/candidates, **not a published stable 1.0**.
