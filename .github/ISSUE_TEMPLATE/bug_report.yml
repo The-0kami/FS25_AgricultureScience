@@ -1,0 +1,68 @@
+name: Fehler melden
+description: Reproduzierbaren Fehler in Agriculture Science melden
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: input
+    id: game
+    attributes:
+      label: LS25-Version
+      placeholder: "z. B. 1.25.0.0"
+    validations:
+      required: true
+  - type: input
+    id: mod
+    attributes:
+      label: Agriculture-Science-Mod und Version
+      placeholder: "APS 1.0.0.0 / SmartGate 1.0.0.0"
+    validations:
+      required: true
+  - type: input
+    id: ad
+    attributes:
+      label: AutoDrive-Version
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Spielmodus
+      options:
+        - Singleplayer
+        - Multiplayer-Host
+        - Dedicated Server
+    validations:
+      required: true
+  - type: dropdown
+    id: module
+    attributes:
+      label: Betroffenes System
+      options:
+        - APS
+        - ASS
+        - LEGS / SmartGate
+        - GUI / Audio
+        - Unklar
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zur Reproduktion
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Tatsächliches Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Relevante Log-Auszüge und weitere aktive Mods
+      description: Bitte persönliche Informationen und Serverzugangsdaten vor dem Teilen entfernen.
