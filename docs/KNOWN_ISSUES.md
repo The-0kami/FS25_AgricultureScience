@@ -1,11 +1,11 @@
-# Bekannte Einschränkungen
+# Bekannte Einschränkungen / Known issues
 
-- Nicht jede Waschstraße, Werkstatt oder Tankstelle ist automatisch unterstützt.
-- Relevante Gespannteile müssen den tatsächlichen Wirkbereich des Servicegebäudes erreichen; außenstehende Anbaugeräte können den Abschluss verhindern.
-- Eine Reparatur folgt den Grenzen der nativen Werkstattaktion; exakt null Restschaden wird nicht garantiert.
-- Ein vorhandenes AutoDrive-Ziel bedeutet nicht zwingend, dass eine fahrbare Route existiert.
-- Der Inworld-Serviceeditor unterstützt noch nicht sämtliche Controller-Eingaben.
-- Ist eine passende Service-Bay belegt/reserviert, kann der Auftrag mit Hinweis abgewiesen werden; eine echte Service-Warteschlange mit Nachrücken ist nicht enthalten.
-- Bei automatischen Aufgaben ohne eindeutig zugeordneten Empfänger wird kein privater Ticketbeleg erzeugt.
-- Volle Abnahme von SP-/Dedi-Gesamtabläufen, parallelen MP-Aufträgen, Late Join und Disconnect steht noch aus.
-- Ein experimenteller Resume-Zusatz zur Fortsetzung nach Drehschemel-Abkuppeln wurde getestet, ist aber noch nicht allgemein für Dedi freigegeben. Ob er in einer späteren öffentlichen Version enthalten sein wird, ergibt sich aus deren konkretem Manifest.
+See the current and detailed guides:
+
+- [Deutsch – Fehlerdiagnose](de/TROUBLESHOOTING.md)
+- [English – Troubleshooting](en/TROUBLESHOOTING.md)
+- [DE – AD-Zielmigration](de/MIGRATION_AD_TARGETS.md)
+- [EN – AD destination migration](en/MIGRATION_AD_TARGETS.md)
+- [Build identities and native-test status](BUILD_STATUS.md)
+
+**Key warning:** 29 October SmartGate AD destination identity candidate is **not yet installed or game-tested**. `UNKNOWN` is conservative, not an empty bay. No executing FIFO service queue or Mass Maintenance Protocol. Native service-building coverage, full Dedi tests and energy-type-specific refuel preselection remain limited.
