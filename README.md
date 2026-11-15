@@ -5,7 +5,7 @@
 
 Agriculture Science is a collection of independently installable Farming Simulator 25 mods built around smarter vehicle parking, service automation, gate control and cinematic camera workflows.
 
-**[Deutsch](#deutsch) · [English](#english) · [Downloads](#downloads--releases) · [Documentation](#documentation--dokumentation) · [Issues](https://github.com/The-0kami/FS25_AgricultureScience/issues)**
+**[Deutsch](#deutsch) · [English](#english) · [Downloads](#downloads--releases) · [Documentation](#documentation--dokumentation) · [Wiki](https://github.com/The-0kami/FS25_AgricultureScience/wiki) · [Issues](https://github.com/The-0kami/FS25_AgricultureScience/issues)**
 
 > **Public beta available · v0.1.0-beta.1**  
 > [Download the first public beta](https://github.com/The-0kami/FS25_AgricultureScience/releases/tag/v0.1.0-beta.1). A.P.S., L.E.G.S. and N.E.C.K. are available as individual ZIPs or an optional complete package. This is a **beta release**; please report issues. GitHub's automatically generated “Source code” ZIP is **not** an installable FS25 mod.
