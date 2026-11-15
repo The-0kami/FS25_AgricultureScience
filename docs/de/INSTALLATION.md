@@ -20,6 +20,18 @@
 4. Die einzelnen ZIPs unverändert in den aktiven LS25-Modordner kopieren. Alte oder doppelte Installationen entfernen.
 5. AutoDrive separat bereitstellen, benötigte Mods im Spielstand aktivieren, Menü und Funktionen prüfen.
 
+### Modulauswahl im Spiel
+
+*Codebasierte GUI-Vorschau mit Beispieldaten.*
+
+**Alle drei Modpakete sind geladen**
+
+![Alle drei Modpakete sind geladen.](../assets/ui/current/01_Settings/DE/overview_all.png)
+
+**N.E.C.K. ist in dieser Spielsitzung nicht geladen**
+
+![N.E.C.K. ist in dieser Spielsitzung nicht geladen.](../assets/ui/current/01_Settings/DE/overview_without_neck.png)
+
 ## Updates und Server
 
 Vor Updates zusätzlich die bisherige `smartGate.xml` und AutoDrive-Ziele sichern. Für ältere LEGS-Service-Bays mit numerischen AD-Zielen kann eine erneute Auswahl des Ziels nötig sein: [Migrationshinweise](MIGRATION_AD_TARGETS.md). Für MP/Dedi müssen Clients und Server **bytegleiche Mod-ZIPs** einsetzen; Prüfsummen statt nur Versionsnummern vergleichen. Der vollständige aktuelle End-to-End-Test auf Dedicated Servern ist noch nicht abgeschlossen.

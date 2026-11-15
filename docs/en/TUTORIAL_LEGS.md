@@ -77,7 +77,15 @@ Geometry changes are batched and saved on closing the editor if changes occurred
 
 See the [illustrated A.S.S. tutorial](TUTORIAL_ASS.md) for the complete service-bay workflow.
 
+![Service bay geometry.](../assets/ui/current/02_Service_Editor/service_geometry_en.png)
+
+*Code-based GUI preview with demo data.*
+
 ## 5. AD target migration
+
+![Service bay AutoDrive destination.](../assets/ui/current/02_Service_Editor/service_ad_en.png)
+
+*Code-based GUI preview with demo data.*
 
 For the **SmartGate candidate dated 29 October** see [AD destination migration](MIGRATION_AD_TARGETS.md). Existing numeric destination assignments must be **re-selected once** after installing that candidate to record name and coordinates. The new fix is not yet verified in-game.
 

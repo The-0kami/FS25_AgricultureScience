@@ -16,14 +16,14 @@ Agriculture Science is a collection of independently installable Farming Simulat
 
 ### Ein Projekt. Mehrere Module.
 
-Agriculture Science erweitert den Landwirtschafts-Simulator 25 um aufeinander abgestimmte Automatisierungswerkzeuge. Installiere die Module, die du benötigst: Jedes der drei geplanten Modpakete bringt seine eigene Menüintegration mit. Für bestimmte gemeinsame Funktionen arbeiten mehrere Module zusammen.
+Agriculture Science erweitert den Landwirtschafts-Simulator 25 um aufeinander abgestimmte Automatisierungswerkzeuge. Installiere die Module, die du benötigst: Jedes der drei Modpakete bringt seine eigene Menüintegration mit. Für bestimmte gemeinsame Funktionen arbeiten mehrere Module zusammen.
 
 | Modul | Was es macht | Paket |
 |:--|:--|:--|
-| **A.P.S.** · Advanced Parking Sequence | Unterstützt automatisierte Parkabläufe und Fahrzeugübergaben im Zusammenspiel mit AutoDrive. | Eigenständige Mod |
+| <img src="docs/assets/branding/aps-mod-icon.png" alt="A.P.S. Icon" width="36"> **A.P.S.** · Advanced Parking Sequence | Unterstützt automatisierte Parkabläufe und Fahrzeugübergaben im Zusammenspiel mit AutoDrive. | Eigenständige Mod |
 | **A.S.S.** · Autonomous Service Supervisor | Ergänzt A.P.S. um koordinierte Serviceabläufe für unterstützte Wasch-, Reparatur- und Versorgungsstellen. | **In A.P.S. enthalten** |
-| **L.E.G.S.** · Logical Entrance Guidance System | Steuert Tore und unterstützt die Konfiguration von Servicebereichen, Stellplätzen und Interaktionen. | Eigenständige Mod; Dateiname **SmartGate** |
-| **N.E.C.K.** · New External Camera Kit | Bietet zusätzliche Kamerafunktionen und Aufnahmemöglichkeiten für AutoDrive-Fahrten. | Eigenständige Mod |
+| <img src="docs/assets/branding/legs-mod-icon.png" alt="L.E.G.S. Icon" width="36"> **L.E.G.S.** · Logical Entrance Guidance System | Steuert Tore und unterstützt die Konfiguration von Servicebereichen, Stellplätzen und Interaktionen. | Eigenständige Mod; Dateiname **SmartGate** |
+| <img src="docs/assets/branding/neck-mod-icon.png" alt="N.E.C.K. Icon" width="36"> **N.E.C.K.** · New External Camera Kit | Bietet zusätzliche Kamerafunktionen und Aufnahmemöglichkeiten für AutoDrive-Fahrten. | Eigenständige Mod |
 
 **In Entwicklung:** **H.E.A.D.** – *Heuristic Environmental Analysis Drone*, ein eigenständiges Drohnen- und Scansystem. **Nicht Bestandteil des ersten Downloadpakets.**
 
@@ -48,7 +48,7 @@ Probleme, Verbesserungsvorschläge und Testerfahrungen sind willkommen. Erstelle
 
 ### One project. Multiple modules.
 
-Agriculture Science extends Farming Simulator 25 with a coordinated set of automation tools. Install only the modules you need: each of the three planned mod packages includes its own menu integration. Some combined features require more than one module.
+Agriculture Science extends Farming Simulator 25 with a coordinated set of automation tools. Install only the modules you need: each of the three mod packages includes its own menu integration. Some combined features require more than one module.
 
 | Module | What it does | Package |
 |:--|:--|:--|
@@ -88,6 +88,12 @@ Bug reports, suggestions and external testing feedback are welcome through [GitH
 **[Download v0.1.0-beta.1](https://github.com/The-0kami/FS25_AgricultureScience/releases/tag/v0.1.0-beta.1)** · [Complete package](https://github.com/The-0kami/FS25_AgricultureScience/releases/download/v0.1.0-beta.1/AgricultureScience_Complete_v0.1.0-beta.1.zip) · [SHA256SUMS.txt](https://github.com/The-0kami/FS25_AgricultureScience/releases/download/v0.1.0-beta.1/SHA256SUMS.txt)
 
 This is a **public beta**, not a stable release. H.E.A.D. and internal DevTools are excluded.
+
+## Ingame / Im Spiel
+
+<img src="docs/assets/branding/ass-servicebereich-ingame.png" alt="Cyanfarbene Begrenzung eines A.S.S.-Servicebereichs in LS25 / Cyan boundary of an A.S.S. service area in FS25" width="760">
+
+*A.S.S.-Servicebereich in LS25, direkt im Spiel aufgenommen. / A.S.S. service area captured in FS25.*
 
 ## Documentation / Dokumentation
 

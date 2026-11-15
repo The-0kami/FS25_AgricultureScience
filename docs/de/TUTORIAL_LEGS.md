@@ -75,9 +75,17 @@ Unter der Infrastruktur einen **Providerrahmen** um passende native Quellen lege
 Die Geometrieänderungen werden beim Schließen gesammelt gesichert, sofern Änderungen vorliegen. Eine synchrone neue Sicherung bei jedem Mausradschritt ist nicht das vorgesehene Verhalten.
 
 
+![Geometrie des Serviceplatzes.](../assets/ui/current/02_Service_Editor/service_geometry_de.png)
+
+*Codebasierte GUI-Vorschau mit Beispieldaten.*
+
 Die vollständige Serviceplatz-Einrichtung steht im [bebilderten A.S.S.-Tutorial](TUTORIAL_ASS.md).
 
 ## 5. Zielbindung und Migration
+
+![AutoDrive-Ziel des Serviceplatzes.](../assets/ui/current/02_Service_Editor/service_ad_de.png)
+
+*Codebasierte GUI-Vorschau mit Beispieldaten.*
 
 Für den **SmartGate-Testkandidaten vom 29.10.2026** siehe [AD-Zielmigration](MIGRATION_AD_TARGETS.md). Bereits gespeicherte Zielnummern benötigen **einmalige Neuauswahl** nach Installation dieses Kandidaten, damit Name und Position als Identität gespeichert werden. Der Fix ist noch nicht nativ abgenommen.
 

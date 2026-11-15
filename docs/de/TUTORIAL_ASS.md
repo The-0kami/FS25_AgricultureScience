@@ -1,6 +1,6 @@
 # Tutorial: A.S.S. – Autonomous Service Supervisor
 
-> **Zu den Bildern:** Codebasierte UI-Abbildungen vom 29.10.2026 mit Beispieldaten, keine Ingame-Screenshots. Engine-Schrift, Farben und native Fenster können abweichen. Die Bildaufteilung der Settings ist für die Dokumentation paginiert; im Spiel wird gescrollt. [Bildnachweis und Grenzen](../UI_CATALOG.md).
+> **Zu den Bildern:** Codebasierte UI-Abbildungen mit Beispieldaten, keine Ingame-Screenshots. Engine-Schrift, Farben und native Fenster können abweichen. Die Bildaufteilung der Settings ist für die Dokumentation paginiert; im Spiel wird gescrollt. [Bildnachweis und Grenzen](../UI_CATALOG.md).
 
 A.S.S. ist **in der APS-ZIP enthalten**, nicht eigenständig zu installieren. Für den Servicebetrieb müssen **APS und L.E.G.S./SmartGate** geladen sein. AutoDrive übernimmt Fahrten, L.E.G.S. liefert die Infrastruktur und A.S.S. koordiniert die native Ausführung. A.S.S. ist **kein** eigenes Tank- oder Finanzsystem.
 
@@ -22,7 +22,7 @@ A.S.S. ist **in der APS-ZIP enthalten**, nicht eigenständig zu installieren. F�
 Mit **Strg+G** den separaten Konfigurationsmodus öffnen und **Serviceplätze** wählen. Die A.S.S.-Karte im Hauptmenü enthält globale Optionen und Anfragen; sie ist nicht der räumliche Editor. Benutzerbelegungen können abweichen.
 
 
-![Verwaltung: Bereich und Serviceplatz auswählen, anlegen und benennen; Kandidat und Vorlage darunter.](../assets/ui/ass/ass_service_management_de.png)
+![Verwaltung von Bereichen und Serviceplätzen.](../assets/ui/current/02_Service_Editor/service_management_de.png)
 
 *Verwaltung: Bereich und Serviceplatz auswählen, anlegen und benennen; Kandidat und Vorlage darunter.*
 
@@ -37,17 +37,17 @@ Mit **Strg+G** den separaten Konfigurationsmodus öffnen und **Serviceplätze** 
 *Bearbeiten: Bereichsrahmen. Er grenzt Servicequellen ein und ist keine Belegungsfläche.*
 
 
-![Bearbeiten: Serviceplatz. X/Z, Breite, Höhe, Länge und Ausrichtung betreffen die gewählte Bay.](../assets/ui/ass/ass_bay_geometry_de.png)
+![Geometrie und Ausrichtung des ausgewählten Serviceplatzes.](../assets/ui/current/02_Service_Editor/service_geometry_de.png)
 
 *Bearbeiten: Serviceplatz. X/Z, Breite, Höhe, Länge und Ausrichtung betreffen die gewählte Bay.*
 
 
-![AD-Ziel der ausgewählten Bay: manuelle Auswahl, Suche, Aktualisierung und räumlicher Vorschlag.](../assets/ui/ass/ass_ad_destination_de.png)
+![AutoDrive-Ziel für den ausgewählten Serviceplatz.](../assets/ui/current/02_Service_Editor/service_ad_de.png)
 
 *AD-Ziel der ausgewählten Bay: manuelle Auswahl, Suche, Aktualisierung und räumlicher Vorschlag.*
 
 
-![Waschbeispiel: native Quelle verknüpft, WASH aktiv, Betrieb OPEN und Belegung FREE.](../assets/ui/ass/ass_wash_source_de.png)
+![Servicefähigkeiten und verknüpfte Quelle.](../assets/ui/current/02_Service_Editor/service_services_de.png)
 
 *Waschbeispiel: native Quelle verknüpft, WASH aktiv, Betrieb OPEN und Belegung FREE.*
 
