@@ -1,6 +1,6 @@
 # Agriculture Science – Release preparation / Release-Vorbereitung
 
-> **Planning document / Planungsdokument, 14 November 2026; user-confirmed local status.** Not an announcement of a published release, a passed GIANTS test or a confirmed ModHub submission. The October candidate hashes in [BUILD_STATUS.md](BUILD_STATUS.md) remain **historical**.
+> **Planning document / Planungsdokument, 15 November 2026; uploaded export verified in chat workspace.** Not an announcement of a published release, a passed GIANTS test or a confirmed ModHub submission. The October candidate hashes in [BUILD_STATUS.md](BUILD_STATUS.md) remain **historical**.
 
 ## Deutsch
 
@@ -16,17 +16,17 @@ Die lokal gemeldeten Dateinamen und Versionen sind unten erfasst; sie müssen be
 
 Dazu kann ein äußeres Archiv `AgricultureScience_Complete_<release>.zip` erscheinen, dessen Inhalt aus **genau denselben unveränderten drei installierbaren ZIPs** besteht. Das äußere Archiv selbst wird **nicht** in LS25 als Mod installiert. Ein Release muss eine Liste der enthaltenen Modulversionen und **SHA-256 jedes Archivs** enthalten.
 
-### Bestätigter lokaler Stand – 14.11.2026
+### Aktueller Exportstand – 15.11.2026
 
-Vom Nutzer bestätigte lokale Installation; Archive und Prüfsummen wurden im Rahmen dieser Dokumentationsänderung nicht unabhängig geprüft. **Lokale Testkandidaten, keine freigegebenen Downloads.**
+Aus dem hochgeladenen Übergabearchiv `AgricultureScience_BB_Export_20261115.zip` unabhängig verifizierte SHA-256, ZIP-CRC und `modDesc.xml`. A.P.S. und N.E.C.K. enthalten jetzt jeweils eine explizite `FS25_AutoDrive`-Abhängigkeit; L.E.G.S. ist unverändert. **Nicht als GitHub-Release-Assets hochgeladen oder veröffentlicht.**
 
 | Modul / Module | Version | ZIP | SHA-256 |
 |---|---|---|---|
-| A.P.S. (inkl. A.S.S. und Audio / incl. A.S.S. and audio) | 1.0.0.0 | `FS25_APS_AgricultureScience.zip` | `5072b6720ead3e59e13269086267cb2cdba0e6f52b3a265e94634f1abc7c3294` |
-| L.E.G.S. | 1.0.0.0 | `FS25_SmartGate_AgricultureScience.zip` | `d1c2e313021b57307d0b7d24a3cb3bf4633e55d696f80faa050a127a617db679` |
-| N.E.C.K. | 0.1.0.0 | `FS25_NECK_AgricultureScience.zip` | `07d3e10fbdd603b19901d835cd422ca5632263cb1db11b4082591b08d770c41f` |
+| A.P.S. (inkl. A.S.S. und Audio / incl. A.S.S. and audio) | 1.0.0.0 | `FS25_APS_AgricultureScience.zip` | `da63115b771493724be7114858238203b4960380e5077df88bd523cbbe1d87a7` |
+| L.E.G.S. | 1.0.0.0 | `FS25_SmartGate_AgricultureScience.zip` | `7aa228b254fd149f4b4f9c3483788de9e7a506e526109424210e745e3514cdbb` |
+| N.E.C.K. | 0.1.0.0 | `FS25_NECK_AgricultureScience.zip` | `ada800f8b8b073904fd403de31070f941e3b94ad98d205ed98b702611a5fb8fe` |
 
-**Abhängigkeiten:** AutoDrive **3.0.1.4** ist die verwendete Referenz, keine daraus abgeleitete Mindestversion. AutoDrive ist separat zu installieren. N.E.C.K.-Filmfahrten benötigen aktives AutoDrive; die Vorschau funktioniert im besetzten Fahrzeug ohne aktives AutoDrive. L.E.G.S.-Torsteuerung läuft eigenständig; AutoDrive-Voröffnung ist optional. Die A.S.S.-Ansicht setzt geladenes A.P.S.+L.E.G.S. und eine registrierte Ansicht voraus.
+**Abhängigkeiten:** A.P.S. und N.E.C.K. deklarieren `FS25_AutoDrive` in `modDesc.xml` als Abhängigkeit. AutoDrive **3.0.1.4** ist die verwendete Referenz, keine daraus abgeleitete Mindestversion. AutoDrive ist separat zu installieren. N.E.C.K.-Filmfahrten benötigen aktives AutoDrive; die Vorschau funktioniert im besetzten Fahrzeug ohne aktives AutoDrive. L.E.G.S.-Torsteuerung läuft eigenständig; AutoDrive-Voröffnung ist optional. Die A.S.S.-Ansicht setzt geladenes A.P.S.+L.E.G.S. und eine registrierte Ansicht voraus.
 
 **Tutorials und Host:** Alle drei Mods enthalten den gemeinsamen Host; der Host-Umbau erfolgte einmalig und koordiniert. Tourtexte und Gruppen stammen jetzt aus den Einstellungsmodulen. Fehlende Module sind ausgegraut und werden im Deep Dive übersprungen. Laut Nutzer bestanden die Lua-Tests für Teilinstallationen, fehlende/inkompatible Tourdaten und den Austausch eines Modultexts bei gleichem Host. Die modulare Tour muss noch im Spiel geprüft werden.
 
@@ -65,17 +65,17 @@ Ein neuer zentraler Release bekommt eine eigene Paketkennung und dokumentiert **
 
 An optional outer `AgricultureScience_Complete_<release>.zip` contains **exactly the same unchanged individual mod ZIPs**. Extract this outer bundle first; **do not** install it as a game mod. Publish module versions and SHA-256 hashes for each archive.
 
-### Confirmed local status – 14 November 2026
+### Current export candidate – 15 November 2026
 
-User-confirmed local installation; archives and checksums were not independently verified as part of this documentation change. **Local test candidates, not approved downloads.**
+SHA-256, ZIP CRC and `modDesc.xml` independently verified from the uploaded `AgricultureScience_BB_Export_20261115.zip`. APS and NECK now declare `FS25_AutoDrive` as a required dependency; LEGS is unchanged. **Not uploaded or published as GitHub Release assets.**
 
 | Modul / Module | Version | ZIP | SHA-256 |
 |---|---|---|---|
-| A.P.S. (inkl. A.S.S. und Audio / incl. A.S.S. and audio) | 1.0.0.0 | `FS25_APS_AgricultureScience.zip` | `5072b6720ead3e59e13269086267cb2cdba0e6f52b3a265e94634f1abc7c3294` |
-| L.E.G.S. | 1.0.0.0 | `FS25_SmartGate_AgricultureScience.zip` | `d1c2e313021b57307d0b7d24a3cb3bf4633e55d696f80faa050a127a617db679` |
-| N.E.C.K. | 0.1.0.0 | `FS25_NECK_AgricultureScience.zip` | `07d3e10fbdd603b19901d835cd422ca5632263cb1db11b4082591b08d770c41f` |
+| A.P.S. (inkl. A.S.S. und Audio / incl. A.S.S. and audio) | 1.0.0.0 | `FS25_APS_AgricultureScience.zip` | `da63115b771493724be7114858238203b4960380e5077df88bd523cbbe1d87a7` |
+| L.E.G.S. | 1.0.0.0 | `FS25_SmartGate_AgricultureScience.zip` | `7aa228b254fd149f4b4f9c3483788de9e7a506e526109424210e745e3514cdbb` |
+| N.E.C.K. | 0.1.0.0 | `FS25_NECK_AgricultureScience.zip` | `ada800f8b8b073904fd403de31070f941e3b94ad98d205ed98b702611a5fb8fe` |
 
-**Dependencies:** AutoDrive **3.0.1.4** is the reference used, not an inferred minimum version. Install AutoDrive separately. N.E.C.K. filming drives require active AutoDrive; preview works in an occupied vehicle without active AutoDrive. L.E.G.S. gate control works independently; AutoDrive pre-opening is optional. The A.S.S. view requires loaded A.P.S.+L.E.G.S. and a registered view.
+**Dependencies:** APS and NECK declare `FS25_AutoDrive` in `modDesc.xml`. AutoDrive **3.0.1.4** is the reference used, not an inferred minimum version. Install AutoDrive separately. N.E.C.K. filming drives require active AutoDrive; preview works in an occupied vehicle without active AutoDrive. L.E.G.S. gate control works independently; AutoDrive pre-opening is optional. The A.S.S. view requires loaded A.P.S.+L.E.G.S. and a registered view.
 
 **Tutorials and host:** All three mods carry the shared host; its refactoring was a single coordinated change. Tour text and groups now come from the settings modules. Missing modules are greyed out and skipped by Deep Dive. The user reports passing Lua tests for partial installations, missing/incompatible tour data, and replacing a module text while retaining the same host. The modular tour still needs in-game verification.
 
@@ -101,3 +101,10 @@ User-confirmed local installation; archives and checksums were not independently
 ### Documentation and update policy
 
 The existing illustration catalogue is historical/supplemental, not proof of the current UI. Embedded tutorials can become the primary usage guide **after** their module-combination behavior is verified. Each central release records the actual version of each module; changing one module does not require a fake version increment for unchanged modules. No development candidate should be silently substituted for a released archive.
+
+### Export update / Aktualisierung vom 15.11.2026
+
+- The received BB export package contains the three mod ZIPs, separate `NECK_BeatSync_Tool.zip` (not a game mod), a 42-image DE/EN GUI preview package plus README (43 files total), and a separate four-image GitHub artwork archive.
+- Only APS and NECK `modDesc.xml` changed compared with the prior uploaded mod ZIPs; each gained `<dependency>FS25_AutoDrive</dependency>`. LEGS is byte-identical.
+- All nested ZIP CRC checks and supplied SHA256SUMS matched the actual archive bytes. Image previews are **code-based mockups**, not confirmed in-game screenshots; the ASS service-area image is supplied separately.
+- These files are **verified local/chat release candidates**, not publicly downloadable GitHub Release assets. No publishing, tag or distribution approval implied.
