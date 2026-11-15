@@ -89,11 +89,7 @@ Bug reports, suggestions and external testing feedback are welcome through [GitH
 
 This is a **public beta**, not a stable release. H.E.A.D. is for the time being excluded.
 
-## Ingame / Im Spiel
 
-<img src="docs/assets/branding/ass-servicebereich-ingame.png" alt="Cyanfarbene Begrenzung eines A.S.S.-Servicebereichs in LS25 / Cyan boundary of an A.S.S. service area in FS25" width="760">
-
-*A.S.S.-Servicebereich in LS25, direkt im Spiel aufgenommen. / A.S.S. service area captured in FS25.*
 
 ## Documentation / Dokumentation
 
