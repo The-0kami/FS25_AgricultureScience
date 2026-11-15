@@ -20,6 +20,18 @@
 4. Copy the individual unchanged ZIPs to your active FS25 mods folder. Remove older duplicates.
 5. Install AutoDrive separately, enable the required mods for your savegame and check their menus and functions.
 
+### Module availability in game
+
+*Code-based GUI preview with demo data.*
+
+**All three mod packages are loaded**
+
+![All three mod packages are loaded.](../assets/ui/current/01_Settings/EN/overview_all.png)
+
+**N.E.C.K. is unavailable in this session**
+
+![N.E.C.K. is unavailable in this session.](../assets/ui/current/01_Settings/EN/overview_without_neck.png)
+
 ## Updates and servers
 
 Back up `smartGate.xml` and your AutoDrive destinations before updating. Older LEGS service bays with numeric AutoDrive destinations may require reselecting the destination: [migration guide](MIGRATION_AD_TARGETS.md). On MP/dedicated servers use **byte-identical mod ZIPs** on all clients and the server; verify SHA-256 rather than relying only on the version string. Full current dedicated-server end-to-end testing remains pending.

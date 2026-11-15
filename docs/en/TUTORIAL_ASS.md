@@ -1,6 +1,6 @@
 # Tutorial: A.S.S. – Autonomous Service Supervisor
 
-> **About these images:** Source-derived UI illustrations dated 29 October 2026 with demo data, not in-game screenshots. Engine fonts, colors and native windows may differ. Settings are split into readable pages for documentation; the game uses scrolling. [Image provenance and limitations](../UI_CATALOG.md).
+> **About these images:** Source-derived UI illustrations with demo data, not in-game screenshots. Engine fonts, colors and native windows may differ. Settings are split into readable pages for documentation; the game uses scrolling. [Image provenance and limitations](../UI_CATALOG.md).
 
 ASS is **bundled inside the APS ZIP**; there is no separate ASS mod ZIP. **Both APS and LEGS/SmartGate** must be loaded for service execution. AutoDrive navigates, LEGS provides service infrastructure, and ASS coordinates native actions. ASS does **not** replace native station payment or fuel systems.
 
@@ -22,7 +22,7 @@ ASS is **bundled inside the APS ZIP**; there is no separate ASS mod ZIP. **Both 
 Open the separate configuration mode with **Ctrl+G** and select **Service bays**. The A.S.S. card in the main menu contains global options and requests; it is not the spatial editor. Custom bindings may differ.
 
 
-![Management: select, create and name areas and bays; candidate and template actions below.](../assets/ui/ass/ass_service_management_en.png)
+![Area and service bay management.](../assets/ui/current/02_Service_Editor/service_management_en.png)
 
 *Management: select, create and name areas and bays; candidate and template actions below.*
 
@@ -37,17 +37,17 @@ Open the separate configuration mode with **Ctrl+G** and select **Service bays**
 *Edit: provider bounds. This limits source selection and is not the bay occupancy area.*
 
 
-![Edit: service bay. X/Z, width, height, length and orientation apply to the selected bay.](../assets/ui/ass/ass_bay_geometry_en.png)
+![Geometry and orientation of the selected service bay.](../assets/ui/current/02_Service_Editor/service_geometry_en.png)
 
 *Edit: service bay. X/Z, width, height, length and orientation apply to the selected bay.*
 
 
-![Selected bay AD target: manual selection, search, refresh and nearby-marker suggestion.](../assets/ui/ass/ass_ad_destination_en.png)
+![AutoDrive destination for the selected service bay.](../assets/ui/current/02_Service_Editor/service_ad_en.png)
 
 *Selected bay AD target: manual selection, search, refresh and nearby-marker suggestion.*
 
 
-![Wash example: native source linked, WASH enabled, operational OPEN and occupancy FREE.](../assets/ui/ass/ass_wash_source_en.png)
+![Service capabilities and linked source.](../assets/ui/current/02_Service_Editor/service_services_en.png)
 
 *Wash example: native source linked, WASH enabled, operational OPEN and occupancy FREE.*
 
