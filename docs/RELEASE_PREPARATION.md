@@ -18,7 +18,7 @@ Dazu kann ein äußeres Archiv `AgricultureScience_Complete_<release>.zip` ersch
 
 ### Aktuelle lokale Build-Exports – 15.11.2026
 
-Laut lokaler Übergabe liegen diese drei aktuellen Original-ZIPs im Windows-Exportordner `Dev Assets/Build_Exports/`; CRC, `modDesc.xml` und gemeinsamer Settings-Host wurden dort geprüft. **Die Binärdateien sind diesem GitHub-Branch nicht beigefügt und ihre Hashes wurden hier nicht unabhängig nachgerechnet. Lokale Exportkandidaten, keine freigegebenen GitHub-Downloads.**
+Die drei ZIPs wurden am 15.11.2026 in diesem Chat als Dateien übergeben. **SHA-256, ZIP-CRC und `modDesc.xml` wurden unabhängig in der Arbeitsumgebung geprüft** und stimmen mit den gemeldeten Exportwerten überein. Ein äußeres Release-Candidate-Bundle wurde separat erstellt und geprüft. **Keines dieser Archive ist als GitHub-Release-Asset hochgeladen oder freigegeben.**
 
 | Modul / Module | Version | ZIP | SHA-256 |
 |---|---|---|---|
@@ -36,13 +36,13 @@ Laut lokaler Übergabe liegen diese drei aktuellen Original-ZIPs im Windows-Expo
 
 ### Übergabe- und Uploadstatus / Transfer status
 
-**Noch nicht auf GitHub hochgeladen:** Die drei Original-ZIPs liegen ausschließlich im lokalen Windows-Exportordner und wurden nicht durch diesen Chattransfer bereitgestellt. Erst nach echtem Upload in GitHub Release Assets und anschließendem Hashvergleich dürfen sie als verfügbar markiert werden. Die älteren Hashes vom **14.11.2026** waren Zwischenstände; der neu gemeldete Exportstand vom **15.11.2026** ersetzt diese Werte lediglich als *Release-Kandidat*, nicht als veröffentlichte Binärdatei.
+**Noch nicht auf GitHub hochgeladen:** Die drei Original-ZIPs wurden am 15.11.2026 als Chat-Anhänge bereitgestellt und unabhängig auf SHA-256, ZIP-CRC und `modDesc.xml` geprüft. Die äußere Release-Candidate-ZIP wurde mit den drei byteidentischen inneren Mod-ZIPs sowie Installationshinweisen und SHA256SUMS erstellt. **Sie ist keine veröffentlichte GitHub-Datei.** Erst nach tatsächlichem GitHub-Upload und Download-/Hashprüfung dürfen Dateien als verfügbar markiert werden. Die älteren Hashes vom **14.11.2026** waren Zwischenstände; der neu gemeldete Exportstand vom **15.11.2026** ersetzt diese Werte lediglich als *Release-Kandidat*, nicht als veröffentlichte Binärdatei.
 
-**Not uploaded to GitHub:** All three original ZIPs remain in the local Windows export folder. Only after actual GitHub Release asset upload and SHA-256 verification may any package be labelled available. The 14 November hashes are superseded candidate data, not current download identities.
+**Not uploaded to GitHub:** The three original ZIPs were delivered as chat attachments, and their SHA-256, ZIP CRC and `modDesc.xml` were independently checked. The outer candidate ZIP was built from byte-identical originals plus a bilingual install note and SHA256SUMS. **The candidate is not a published GitHub asset.** GitHub downloads must be verified after actual upload before being labelled available. The 14 November hashes are superseded candidate data, not current download identities.
 
 ### Offene Prüfungen vor Veröffentlichung
 
-- [ ] Drei Original-ZIPs aus dem lokalen Exportordner tatsächlich für die Release-Prüfung übertragen; übermittelte CRC-/`modDesc.xml`-/Host-Prüfung unabhängig nachvollziehen, ZIP-Struktur, Mod-ID und Version bestätigen.
+- [x] Die drei aktuellen Original-ZIPs als Chat-Anhänge erhalten; SHA-256, ZIP-CRC, `modDesc.xml` und Versionsnummern unabhängig geprüft. Host-Laufzeitverhalten bleibt Bestandteil der Ingame-Prüfung.
 - [ ] Nach ausdrücklicher Freigabe GitHub Release Assets bereitstellen, tatsächlich verfügbare Asset-Downloads prüfen und deren SHA-256 mit den Originalen vergleichen.
 - [ ] Keine Duplikate/alten Fassungen/Privatpakete in den Releases; A.S.S. wird nicht fälschlich als eigene Mod-ZIP geführt.
 - [ ] Testmatrix mit **A.P.S. allein**, **L.E.G.S. allein**, **N.E.C.K. allein**, **A.P.S.+L.E.G.S.** und **allen drei gemeinsam**. Abhängigkeiten und nur teilweise verfügbare Funktionen korrekt erklären.
@@ -74,7 +74,7 @@ An optional outer `AgricultureScience_Complete_<release>.zip` contains **exactly
 
 ### Current local build exports – 15 November 2026
 
-According to the local handoff, the three current original ZIPs are stored in the Windows `Dev Assets/Build_Exports/` folder; CRC, `modDesc.xml` and the common settings host were checked locally. **No binary ZIPs were attached to this GitHub branch and the hashes have not been independently recomputed here. Local export candidates, not approved GitHub downloads.**
+The three original ZIPs were provided as chat attachments on 15 November 2026. Their **SHA-256 hashes, ZIP CRC and `modDesc.xml` were independently checked** in the working environment against the reported export values. A separate outer release-candidate bundle was assembled and verified. **None of these archives have been uploaded or approved as GitHub Release assets.**
 
 | Modul / Module | Version | ZIP | SHA-256 |
 |---|---|---|---|
@@ -92,11 +92,11 @@ According to the local handoff, the three current original ZIPs are stored in th
 
 ### Transfer / upload status
 
-The three original ZIP files were not transferred from the Windows export folder to this environment, and no GitHub Release assets have been published or verified. **Do not mark them as downloadable.** The 14 November hashes are historical test-candidate values; the newer 15 November local export hashes remain unverified by this repository until binary transfer and verification.
+The three original ZIPs were provided and independently hash/CRC/descriptor-checked in the working environment on 15 November 2026, and the complete candidate bundle was assembled. No GitHub Release assets have been published or verified. **Do not mark them as downloadable.** The 14 November hashes are historical test-candidate values; the newer 15 November local export hashes remain unverified by this repository until binary transfer and verification.
 
 ### Pre-release checks
 
-- [ ] Actually transfer the three original ZIPs from the local exports and independently validate reported CRC/`modDesc.xml`/host checks, ZIP structure, mod IDs and versions.
+- [x] Receive all three actual mod ZIPs as chat attachments; independently verify SHA-256, ZIP CRC, `modDesc.xml` and versions. In-game shared-host runtime behavior remains to be tested.
 - [ ] After explicit approval, publish the GitHub Release assets, verify their availability and compare the downloaded SHA-256 values with the originals.
 - [ ] Keep A.S.S. within A.P.S.; exclude duplicate versions, DevTools and private packs.
 - [ ] Test each module alone, A.P.S.+L.E.G.S., and the full combination; document dependencies accurately.
@@ -113,3 +113,7 @@ The three original ZIP files were not transferred from the Windows export folder
 ### Documentation and update policy
 
 The existing illustration catalogue is historical/supplemental, not proof of the current UI. Embedded tutorials can become the primary usage guide **after** their module-combination behavior is verified. Each central release records the actual version of each module; changing one module does not require a fake version increment for unchanged modules. No development candidate should be silently substituted for a released archive.
+
+**Bereits erstelltes äußeres Release-Candidate-Paket / Prepared outer candidate:** `AgricultureScience_Complete_ReleaseCandidate_2026-11-15.zip` · **57.675.346 Bytes** · SHA-256 `3cecf22216f66a5faaa2ead72f370bbf5af573e6acd0d9414ad42a37d89908c0`. Contains three byte-identical mod ZIPs plus `README_INSTALL_DE_EN.md` and `SHA256SUMS.txt`. **Nur in der Chat-Arbeitsumgebung geprüft, nicht auf GitHub hochgeladen. / Verified in the chat workspace only; not uploaded to GitHub.**
+
+**Zusätzliche Bilder / Supplemental images:** `AgricultureScience_GitHub_Bilder_20261115.zip`, vier PNG-Dateien (drei Modulicons mit 512×512 px, ASS-Servicebereich 2083×581 px), ZIP-CRC geprüft; Bildintegration/Attribution vor Veröffentlichung prüfen.
