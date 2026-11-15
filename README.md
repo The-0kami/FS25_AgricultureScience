@@ -34,7 +34,7 @@ Agriculture Science erweitert den Landwirtschafts-Simulator 25 um aufeinander ab
 3. Kopiere die einzelnen Mod-ZIPs **ungeöffnet** in deinen aktiven LS25-Modordner. Ein optionales Agriculture-Science-Komplettpaket muss zuvor entpackt werden.
 4. Aktiviere die entsprechenden Mods in deinem Spielstand. Installiere **AutoDrive separat**, wenn du die davon abhängigen Fahrfunktionen verwenden möchtest.
 
-**Zusammenspiel:** A.S.S.-Servicefunktionen benötigen A.P.S. **und** L.E.G.S.; reine L.E.G.S.-Torsteuerung funktioniert eigenständig. N.E.C.K.-Filmfahrten erfordern aktives AutoDrive. Die verwendete AutoDrive-Referenz ist **3.0.1.4**, ohne dass dies eine garantierte Mindestversion darstellt. Courseplay kann optional genutzt werden.
+**Zusammenspiel:** A.P.S. und N.E.C.K. deklarieren **FS25_AutoDrive** ausdrücklich als benötigte Mod. A.S.S.-Servicefunktionen benötigen A.P.S. **und** L.E.G.S.; reine L.E.G.S.-Torsteuerung funktioniert eigenständig. N.E.C.K.-Filmfahrten erfordern aktives AutoDrive. Die verwendete AutoDrive-Referenz ist **3.0.1.4**, ohne dass dies eine garantierte Mindestversion darstellt. Courseplay kann optional genutzt werden.
 
 Für Updates, bestehende Serviceplätze und Dedicated Server bitte vorab die Hinweise in der [Installationsdokumentation](docs/de/INSTALLATION.md) und [Kompatibilitätsübersicht](docs/COMPATIBILITY.md) lesen. Einige ältere Anleitungen werden derzeit an den neuen Dreier-Modulstand angepasst.
 
@@ -66,7 +66,7 @@ Agriculture Science extends Farming Simulator 25 with a coordinated set of autom
 3. Copy the individual mod ZIPs **without extracting them** to your active FS25 mods folder. Extract an optional outer Agriculture Science bundle first.
 4. Enable the mods for your savegame. Install **AutoDrive separately** for functions that depend on automated driving.
 
-**Integration:** A.S.S. service features require both A.P.S. **and** L.E.G.S.; basic L.E.G.S. gate controls work independently. N.E.C.K. filming drives need active AutoDrive. The development reference for AutoDrive is **3.0.1.4**, not a proven minimum version. Courseplay is optional.
+**Integration:** A.P.S. and N.E.C.K. explicitly declare **FS25_AutoDrive** as a required mod dependency. A.S.S. service features require both A.P.S. **and** L.E.G.S.; basic L.E.G.S. gate controls work independently. N.E.C.K. filming drives need active AutoDrive. The development reference for AutoDrive is **3.0.1.4**, not a proven minimum version. Courseplay is optional.
 
 Before upgrading existing installations or configuring a dedicated server, read the [installation guide](docs/en/INSTALLATION.md) and [compatibility notes](docs/COMPATIBILITY.md). Some older guides are being revised for the three-module package.
 
