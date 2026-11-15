@@ -5,7 +5,7 @@
 
 [Deutsch](#deutsch) · [English](#english) · [Release preparation / Release-Vorbereitung](docs/RELEASE_PREPARATION.md) · [Historische Build-Matrix](docs/BUILD_STATUS.md)
 
-> **Release-Vorbereitung / Release preparation – 14.11.2026:** Lokaler Stand vom Nutzer bestätigt; **keine Release-Freigabe**. Local versions and candidate SHA-256 hashes are documented below; they are **not approved downloads**. October 2026 build notes remain historical.
+> **Release-Vorbereitung / Release preparation – 15.11.2026:** Lokaler Stand vom Nutzer bestätigt; **keine Release-Freigabe**. Local versions and candidate SHA-256 hashes are documented below; they are **not approved downloads**. October 2026 build notes remain historical.
 
 ## Deutsch
 
@@ -21,15 +21,15 @@ Agriculture Science besteht aus **unabhängig installierbaren Modulen**. Jedes M
 
 **Geplante Downloads (noch nicht veröffentlicht):** Einzel-ZIPs für A.P.S. (inkl. A.S.S.), L.E.G.S. und N.E.C.K.; zusätzlich ein **Komplettpaket**, das dieselben unveränderten Mod-ZIPs enthält. Das Komplettpaket muss vor der Installation **entpackt** werden; nur die einzelnen installierbaren Mod-ZIPs gehören in den aktiven Mods-Ordner.
 
-### Bestätigter lokaler Stand – 14.11.2026
+### Aktuelle lokale Build-Exports – 15.11.2026
 
-Vom Nutzer bestätigte lokale Installation; Archive und Prüfsummen wurden im Rahmen dieser Dokumentationsänderung nicht unabhängig geprüft. **Lokale Testkandidaten, keine freigegebenen Downloads.**
+Laut lokaler Übergabe liegen diese drei aktuellen Original-ZIPs im Windows-Exportordner `Dev Assets/Build_Exports/`; CRC, `modDesc.xml` und gemeinsamer Settings-Host wurden dort geprüft. **Die Binärdateien sind diesem GitHub-Branch nicht beigefügt und ihre Hashes wurden hier nicht unabhängig nachgerechnet. Lokale Exportkandidaten, keine freigegebenen GitHub-Downloads.**
 
 | Modul / Module | Version | ZIP | SHA-256 |
 |---|---|---|---|
-| A.P.S. (inkl. A.S.S. und Audio / incl. A.S.S. and audio) | 1.0.0.0 | `FS25_APS_AgricultureScience.zip` | `5072b6720ead3e59e13269086267cb2cdba0e6f52b3a265e94634f1abc7c3294` |
-| L.E.G.S. | 1.0.0.0 | `FS25_SmartGate_AgricultureScience.zip` | `d1c2e313021b57307d0b7d24a3cb3bf4633e55d696f80faa050a127a617db679` |
-| N.E.C.K. | 0.1.0.0 | `FS25_NECK_AgricultureScience.zip` | `07d3e10fbdd603b19901d835cd422ca5632263cb1db11b4082591b08d770c41f` |
+| A.P.S. (inkl. A.S.S. und Audio / incl. A.S.S. and audio) | 1.0.0.0 | `FS25_APS_AgricultureScience.zip` | `e543cc3cde6e1f7511dc889861932e4f79cab49b4a603b977370f123138fdf66` |
+| L.E.G.S. | 1.0.0.0 | `FS25_SmartGate_AgricultureScience.zip` | `7aa228b254fd149f4b4f9c3483788de9e7a506e526109424210e745e3514cdbb` |
+| N.E.C.K. | 0.1.0.0 | `FS25_NECK_AgricultureScience.zip` | `c599e496e3d6571a2adf981d493490abecdfdc3bfbfc78e759ee41177df1366b` |
 
 **Abhängigkeiten:** AutoDrive **3.0.1.4** ist die verwendete Referenz, keine daraus abgeleitete Mindestversion. AutoDrive ist separat zu installieren. N.E.C.K.-Filmfahrten benötigen aktives AutoDrive; die Vorschau funktioniert im besetzten Fahrzeug ohne aktives AutoDrive. L.E.G.S.-Torsteuerung läuft eigenständig; AutoDrive-Voröffnung ist optional. Die A.S.S.-Ansicht setzt geladenes A.P.S.+L.E.G.S. und eine registrierte Ansicht voraus.
 
@@ -58,15 +58,15 @@ Agriculture Science is a set of **independently installable mods**. According to
 
 **Planned downloads (not published yet):** Individual ZIP files for A.P.S. (including A.S.S.), L.E.G.S. and N.E.C.K., plus a **Complete Package** containing those same unmodified ZIP files. Extract the outer Complete Package first; install only the individual mod ZIPs into the active mods directory.
 
-### Confirmed local status – 14 November 2026
+### Current local build exports – 15 November 2026
 
-User-confirmed local installation; archives and checksums were not independently verified as part of this documentation change. **Local test candidates, not approved downloads.**
+According to the local handoff, the three current original ZIPs are stored in the Windows `Dev Assets/Build_Exports/` folder; CRC, `modDesc.xml` and the common settings host were checked locally. **No binary ZIPs were attached to this GitHub branch and the hashes have not been independently recomputed here. Local export candidates, not approved GitHub downloads.**
 
 | Modul / Module | Version | ZIP | SHA-256 |
 |---|---|---|---|
-| A.P.S. (inkl. A.S.S. und Audio / incl. A.S.S. and audio) | 1.0.0.0 | `FS25_APS_AgricultureScience.zip` | `5072b6720ead3e59e13269086267cb2cdba0e6f52b3a265e94634f1abc7c3294` |
-| L.E.G.S. | 1.0.0.0 | `FS25_SmartGate_AgricultureScience.zip` | `d1c2e313021b57307d0b7d24a3cb3bf4633e55d696f80faa050a127a617db679` |
-| N.E.C.K. | 0.1.0.0 | `FS25_NECK_AgricultureScience.zip` | `07d3e10fbdd603b19901d835cd422ca5632263cb1db11b4082591b08d770c41f` |
+| A.P.S. (inkl. A.S.S. und Audio / incl. A.S.S. and audio) | 1.0.0.0 | `FS25_APS_AgricultureScience.zip` | `e543cc3cde6e1f7511dc889861932e4f79cab49b4a603b977370f123138fdf66` |
+| L.E.G.S. | 1.0.0.0 | `FS25_SmartGate_AgricultureScience.zip` | `7aa228b254fd149f4b4f9c3483788de9e7a506e526109424210e745e3514cdbb` |
+| N.E.C.K. | 0.1.0.0 | `FS25_NECK_AgricultureScience.zip` | `c599e496e3d6571a2adf981d493490abecdfdc3bfbfc78e759ee41177df1366b` |
 
 **Dependencies:** AutoDrive **3.0.1.4** is the reference used, not an inferred minimum version. Install AutoDrive separately. N.E.C.K. filming drives require active AutoDrive; preview works in an occupied vehicle without active AutoDrive. L.E.G.S. gate control works independently; AutoDrive pre-opening is optional. The A.S.S. view requires loaded A.P.S.+L.E.G.S. and a registered view.
 
