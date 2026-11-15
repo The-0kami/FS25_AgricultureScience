@@ -3,7 +3,7 @@
 | Voraussetzung / Dependency | Stand / Status |
 |---|---|
 | LS25 | 1.25.0.0 documented test environment; **not a proven minimum** |
-| AutoDrive | Reference **3.0.1.4** for driving; **not included** |
+| AutoDrive | **Required mod dependency in APS and NECK modDesc.xml** (`FS25_AutoDrive`); reference version **3.0.1.4**; **not included**, not a proven minimum |
 | APS and SmartGate | Both required for **ASS** services; basic parking/gates can work independently |
 | Courseplay | Optional; not all integrations tested |
 | Service sources | Only verified native workshop/wash/refuel or charging contracts; not every building |
