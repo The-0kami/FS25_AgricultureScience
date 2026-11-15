@@ -6,4 +6,4 @@ Current detailed guides replace the preliminary feature summary:
 - [English – APS](en/TUTORIAL_APS.md) · [LEGS](en/TUTORIAL_LEGS.md) · [ASS](en/TUTORIAL_ASS.md)
 - [Verified build candidates and limits](BUILD_STATUS.md)
 
-**Two mod ZIPs, three systems.** ASS is included in APS. Mass Maintenance Protocol and the separate N.E.C.K. camera idea are **not implemented pack features**.
+**Three independently installable mod ZIPs:** APS (including ASS), LEGS (SmartGate filename) and NECK. APS and NECK explicitly declare `FS25_AutoDrive` as a required dependency. HEAD remains in development and is not part of the first release. Mass Maintenance Protocol is not an announced release feature.
