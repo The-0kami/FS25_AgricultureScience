@@ -21,33 +21,23 @@ ASS is **bundled inside the APS ZIP**; there is no separate ASS mod ZIP. **Both 
 
 Open the separate configuration mode with **Ctrl+G** and select **Service bays**. The A.S.S. card in the main menu contains global options and requests; it is not the spatial editor. Custom bindings may differ.
 
-
-![Area and service bay management.](../assets/ui/current/02_Service_Editor/service_management_en.png)
+![Area and service bay management.](../assets/ui/v2/service/en/management.png)
 
 *Management: select, create and name areas and bays; candidate and template actions below.*
 
+![Schematic top view of an area with two service bays](../assets/ui/v2/service/en/area_two_bays.png)
 
-![Rename an area; an empty name uses automatic numbering. Native dialog styling approximated.](../assets/ui/ass/ass_rename_area_en.png)
+*Schematic top view of an area with two service bays.*
 
-*Rename an area; an empty name uses automatic numbering. Native dialog styling approximated.*
-
-
-![Edit: provider bounds. This limits source selection and is not the bay occupancy area.](../assets/ui/ass/ass_provider_bounds_en.png)
-
-*Edit: provider bounds. This limits source selection and is not the bay occupancy area.*
-
-
-![Geometry and orientation of the selected service bay.](../assets/ui/current/02_Service_Editor/service_geometry_en.png)
+![Geometry and orientation of the selected service bay.](../assets/ui/v2/service/en/geometry.png)
 
 *Edit: service bay. X/Z, width, height, length and orientation apply to the selected bay.*
 
-
-![AutoDrive destination for the selected service bay.](../assets/ui/current/02_Service_Editor/service_ad_en.png)
+![AutoDrive destination for the selected service bay.](../assets/ui/v2/service/en/ad_target.png)
 
 *Selected bay AD target: manual selection, search, refresh and nearby-marker suggestion.*
 
-
-![Service capabilities and linked source.](../assets/ui/current/02_Service_Editor/service_services_en.png)
+![Service capabilities and linked source.](../assets/ui/v2/service/en/service_source.png)
 
 *Wash example: native source linked, WASH enabled, operational OPEN and occupancy FREE.*
 
@@ -61,11 +51,7 @@ Open the separate configuration mode with **Ctrl+G** and select **Service bays**
 4. Observe bay selection, reservation, actual arrival, native washing and **measured cleanliness**. Cycles continue only up to that job's **goal and limit**; exactly five cycles are not universally required.
 5. If cleaning does not register, check the native effect area for every attached unit. A completed animation alone is not proof.
 
-
-
-![Three manual service requests and automatic wash options on the A.S.S. page.](../assets/ui/ass/ass_manual_requests_wash_en.png)
-
-*Three manual service requests and automatic wash options on the A.S.S. page.*
+![A.S.S. settings page](../assets/ui/v2/settings/en/ass.png)
 
 ## 3. REPAIR and vehicle lifts
 
@@ -78,12 +64,6 @@ Open the separate configuration mode with **Ctrl+G** and select **Service bays**
 
 **Threshold wording:** An internal **20% damage** threshold may display as **80% remaining condition**. Do not describe the former as “20% durability.”
 
-
-
-![Current help for capabilities, automatic stations, lift holding and energy types; dialog shell approximated.](../assets/ui/ass/ass_service_help_en.png)
-
-*Current help for capabilities, automatic stations, lift holding and energy types; dialog shell approximated.*
-
 **Still missing:** A concrete linked REPAIR profile and raised/lowered lift require station-specific native captures. The help dialog describes actual options but does not prove a completed repair.
 
 ## 4. REFUEL / CHARGE
@@ -93,7 +73,6 @@ Open the separate configuration mode with **Ctrl+G** and select **Service bays**
 3. Stop an eligible vehicle and choose **Request refuel/charge** from the menu.
 4. Verify actual fill level before and after. Supported fluids can be expressed in **litres**, `ELECTRICCHARGE` in **kWh**.
 5. **Known limitation:** Energy-type-specific bay pre-selection is not comprehensively guaranteed, particularly for electric versus diesel bays.
-
 
 **Still missing:** No verified station-specific REFUEL/CHARGE configuration is pictured. The wash example does not certify an arbitrary tank or charging station as compatible.
 
@@ -107,19 +86,11 @@ After a **manual menu service**, the vehicle returns to an **existing suitable A
 
 **Busy bays:** If every matching bay is occupied/reserved, the request is declined with a retry-later notice. There is **no executing FIFO queue or physical waiting area**.
 
-
-
-![Automation and thresholds: remaining vehicle condition and remaining fuel or charge.](../assets/ui/ass/ass_condition_energy_thresholds_en.png)
-
-*Automation and thresholds: remaining vehicle condition and remaining fuel or charge.*
-
-
-![UNKNOWN occupancy: not available, even when operational state is OPEN.](../assets/ui/ass/ass_bay_unknown_en.png)
+![UNKNOWN occupancy: not available, even when operational state is OPEN.](../assets/ui/v2/service/en/occupancy_unknown.png)
 
 *UNKNOWN occupancy: not available, even when operational state is OPEN.*
 
-
-![Example showing physical OCCUPIED plus a separate RESERVED reservation.](../assets/ui/ass/ass_bay_occupied_reserved_en.png)
+![Example showing physical OCCUPIED plus a separate RESERVED reservation.](../assets/ui/v2/service/en/occupied_reserved.png)
 
 *Example showing physical OCCUPIED plus a separate RESERVED reservation.*
 
@@ -133,18 +104,10 @@ Audio includes a one-at-a-time voice queue, priorities, ducking and local radio 
 
 See [AD destination migration](MIGRATION_AD_TARGETS.md) and [troubleshooting](TROUBLESHOOTING.md).
 
-
-
-![Maximum service time, no-progress limit and optional local ticket printer.](../assets/ui/ass/ass_monitoring_receipt_settings_en.png)
-
-*Maximum service time, no-progress limit and optional local ticket printer.*
-
-
-![Local completed REPAIR receipt. Workshop items are humorous text; demo data.](../assets/ui/ass/ass_receipt_repair_en.png)
+![Local completed REPAIR receipt. Workshop items are humorous text; demo data.](../assets/ui/v2/service/en/receipt_repair.png)
 
 *Local completed REPAIR receipt. Workshop items are humorous text; demo data.*
 
-
-![REFUEL example with observed quantity and estimated balance delta, not an isolated station invoice.](../assets/ui/ass/ass_receipt_refuel_en.png)
+![REFUEL example with observed quantity and estimated balance delta, not an isolated station invoice.](../assets/ui/v2/service/en/receipt_refuel.png)
 
 *REFUEL example with observed quantity and estimated balance delta, not an isolated station invoice.*

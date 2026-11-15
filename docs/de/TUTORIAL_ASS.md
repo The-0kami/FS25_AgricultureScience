@@ -21,33 +21,23 @@ A.S.S. ist **in der APS-ZIP enthalten**, nicht eigenständig zu installieren. F�
 
 Mit **Strg+G** den separaten Konfigurationsmodus öffnen und **Serviceplätze** wählen. Die A.S.S.-Karte im Hauptmenü enthält globale Optionen und Anfragen; sie ist nicht der räumliche Editor. Benutzerbelegungen können abweichen.
 
-
-![Verwaltung von Bereichen und Serviceplätzen.](../assets/ui/current/02_Service_Editor/service_management_de.png)
+![Verwaltung von Bereichen und Serviceplätzen.](../assets/ui/v2/service/de/management.png)
 
 *Verwaltung: Bereich und Serviceplatz auswählen, anlegen und benennen; Kandidat und Vorlage darunter.*
 
+![Schematische Draufsicht eines Bereichs mit zwei Serviceplätzen](../assets/ui/v2/service/de/area_two_bays.png)
 
-![Bereich benennen; leerer Name verwendet automatische Nummerierung. Nativer Dialogstil angenähert.](../assets/ui/ass/ass_rename_area_de.png)
+*Schematische Draufsicht eines Bereichs mit zwei Serviceplätzen.*
 
-*Bereich benennen; leerer Name verwendet automatische Nummerierung. Nativer Dialogstil angenähert.*
-
-
-![Bearbeiten: Bereichsrahmen. Er grenzt Servicequellen ein und ist keine Belegungsfläche.](../assets/ui/ass/ass_provider_bounds_de.png)
-
-*Bearbeiten: Bereichsrahmen. Er grenzt Servicequellen ein und ist keine Belegungsfläche.*
-
-
-![Geometrie und Ausrichtung des ausgewählten Serviceplatzes.](../assets/ui/current/02_Service_Editor/service_geometry_de.png)
+![Geometrie und Ausrichtung des ausgewählten Serviceplatzes.](../assets/ui/v2/service/de/geometry.png)
 
 *Bearbeiten: Serviceplatz. X/Z, Breite, Höhe, Länge und Ausrichtung betreffen die gewählte Bay.*
 
-
-![AutoDrive-Ziel für den ausgewählten Serviceplatz.](../assets/ui/current/02_Service_Editor/service_ad_de.png)
+![AutoDrive-Ziel für den ausgewählten Serviceplatz.](../assets/ui/v2/service/de/ad_target.png)
 
 *AD-Ziel der ausgewählten Bay: manuelle Auswahl, Suche, Aktualisierung und räumlicher Vorschlag.*
 
-
-![Servicefähigkeiten und verknüpfte Quelle.](../assets/ui/current/02_Service_Editor/service_services_de.png)
+![Servicefähigkeiten und verknüpfte Quelle.](../assets/ui/v2/service/de/service_source.png)
 
 *Waschbeispiel: native Quelle verknüpft, WASH aktiv, Betrieb OPEN und Belegung FREE.*
 
@@ -61,11 +51,7 @@ Die Namen „Hof Nord“, „Waschplatz Nord“ und „Waschstrasse Nord“ sind
 4. Beobachten: Bay-Auswahl, Reservierung, AD-Anfahrt, native Waschaktion, Überprüfung des tatsächlichen Sauberkeitswerts. Je nach Auftrag werden Zyklen nur bis zum gesetzten **Ziel und Limit** wiederholt – nicht immer exakt fünf.
 5. Bei ausbleibendem Effekt prüfen, ob **alle erfassten Gespannteile** vom Wirkbereich erfasst sind; sichtbare Wasch-Animation allein beweist keinen Erfolg.
 
-
-
-![Drei manuelle Serviceanfragen und automatische Waschoptionen auf der A.S.S.-Seite.](../assets/ui/ass/ass_manual_requests_wash_de.png)
-
-*Drei manuelle Serviceanfragen und automatische Waschoptionen auf der A.S.S.-Seite.*
+![A.S.S.-Einstellungsseite](../assets/ui/v2/settings/de/ass.png)
 
 ## 3. REPAIR und Hebebühne
 
@@ -78,13 +64,7 @@ Die Namen „Hof Nord“, „Waschplatz Nord“ und „Waschstrasse Nord“ sind
 
 **Schwellenbegriff:** Intern **20 % Schaden** kann in der Oberfläche als **80 % verbleibender Zustand** erscheinen. Nicht „20 % Haltbarkeit“ mit dem internen Schadenswert verwechseln.
 
-
-
-![Aktueller Hilfetext zu Fähigkeiten, automatischen Stationen, Bühnenhalten und Energiearten; Dialograhmen angenähert.](../assets/ui/ass/ass_service_help_de.png)
-
-*Aktueller Hilfetext zu Fähigkeiten, automatischen Stationen, Bühnenhalten und Energiearten; Dialograhmen angenähert.*
-
-**Noch ohne Bildnachweis:** Das konkrete verknüpfte REPAIR-Profil und die angehobene/abgesenkte Hebebühne benötigen Stations- und Ingame-Aufnahmen. Der Hilfedialog zeigt die echten Optionen, ist aber kein Nachweis eines Reparaturdurchlaufs.
+**Noch ohne Bildnachweis:** Das konkrete verknüpfte REPAIR-Profil und die angehobene/abgesenkte Hebebühne benötigen Stations- und Ingame-Aufnahmen.
 
 ## 4. REFUEL / CHARGE
 
@@ -93,7 +73,6 @@ Die Namen „Hof Nord“, „Waschplatz Nord“ und „Waschstrasse Nord“ sind
 3. Ein geeignetes, angehaltenes Fahrzeug per Menü **Tanken bzw. Laden anfordern**.
 4. Tatsächlichen Füllstand vorher/nachher kontrollieren. Unterstützte Flüssigkeiten können in **Litern**, `ELECTRICCHARGE` in **kWh** dargestellt werden.
 5. **Offene Grenze:** Energieart-spezifische Bay-Vorauswahl ist nicht generell abgesichert; insbesondere Elektro-/Diesel-Bay-Zuordnung prüfen.
-
 
 **Noch ohne Bildnachweis:** Es liegt keine geprüfte stationenspezifische REFUEL-/CHARGE-Konfiguration vor. Das Waschbeispiel ist keine Anleitung, einen beliebigen Tank oder eine Ladestation als kompatibel auszugeben.
 
@@ -107,19 +86,11 @@ Nach **manuellen Menüservices** erfolgt die Rückkehr zu einem **geeigneten vor
 
 **Busy Bay:** Sind alle geeigneten Bays belegt oder reserviert, wird die Anfrage abgewiesen mit Hinweis auf späteren Versuch. **Keine ausführende FIFO-Schlange, kein automatisches Nachrücken.**
 
-
-
-![Automatik und Schwellen: verbleibender Fahrzeugzustand und verbleibender Tank-/Ladestand.](../assets/ui/ass/ass_condition_energy_thresholds_de.png)
-
-*Automatik und Schwellen: verbleibender Fahrzeugzustand und verbleibender Tank-/Ladestand.*
-
-
-![Belegung UNKNOWN: keine Freigabe, auch wenn der Betrieb OPEN ist.](../assets/ui/ass/ass_bay_unknown_de.png)
+![Belegung UNKNOWN: keine Freigabe, auch wenn der Betrieb OPEN ist.](../assets/ui/v2/service/de/occupancy_unknown.png)
 
 *Belegung UNKNOWN: keine Freigabe, auch wenn der Betrieb OPEN ist.*
 
-
-![Beispiel mit physischem OCCUPIED und zusätzlicher RESERVED-Reservierung.](../assets/ui/ass/ass_bay_occupied_reserved_de.png)
+![Beispiel mit physischem OCCUPIED und zusätzlicher RESERVED-Reservierung.](../assets/ui/v2/service/de/occupied_reserved.png)
 
 *Beispiel mit physischem OCCUPIED und zusätzlicher RESERVED-Reservierung.*
 
@@ -133,18 +104,10 @@ Audio: Voice-Queue (eine Line gleichzeitig), Prioritäten, Ducking, lokale Radio
 
 Weitere Hilfen: [AD-Zielmigration](MIGRATION_AD_TARGETS.md) · [Fehlerbehebung](TROUBLESHOOTING.md).
 
-
-
-![Maximale Servicezeit, fehlender Fortschritt und optionaler lokaler Ticketdrucker.](../assets/ui/ass/ass_monitoring_receipt_settings_de.png)
-
-*Maximale Servicezeit, fehlender Fortschritt und optionaler lokaler Ticketdrucker.*
-
-
-![Lokaler Abschlussbeleg für REPAIR. Werkstattpositionen sind humorvolle Texte; Beispieldaten.](../assets/ui/ass/ass_receipt_repair_de.png)
+![Lokaler Abschlussbeleg für REPAIR. Werkstattpositionen sind humorvolle Texte; Beispieldaten.](../assets/ui/v2/service/de/receipt_repair.png)
 
 *Lokaler Abschlussbeleg für REPAIR. Werkstattpositionen sind humorvolle Texte; Beispieldaten.*
 
-
-![REFUEL-Beispiel mit beobachteter Menge und geschätztem Kontodelta; keine isolierte Stationsrechnung.](../assets/ui/ass/ass_receipt_refuel_de.png)
+![REFUEL-Beispiel mit beobachteter Menge und geschätztem Kontodelta; keine isolierte Stationsrechnung.](../assets/ui/v2/service/de/receipt_refuel.png)
 
 *REFUEL-Beispiel mit beobachteter Menge und geschätztem Kontodelta; keine isolierte Stationsrechnung.*
