@@ -1,54 +1,31 @@
-# Installation and updates – Agriculture Science
+# Installation – Agriculture Science (FS25)
 
-> **About these images:** Source-derived UI illustrations dated 29 October 2026 with demo data, not in-game screenshots. Engine fonts, colors and native windows may differ. Settings are split into readable pages for documentation; the game uses scrolling. [Image provenance and limitations](../UI_CATALOG.md).
+> **Current status: 15 November 2026 · Release in preparation.** No GitHub Release assets are published yet. This guide describes the three verified local release candidates; final approval and MP/dedicated-server tests remain pending.
 
-> **As of 29 October 2026:** Documentation for development candidates, **not a release** in this repository. The latest SmartGate AD target identity fix is **locally installed, but not verified in-game or on Dedi**. See [build status](../BUILD_STATUS.md).
+## Packages
 
-## Packages and prerequisites
+| File | Module | Version |
+|---|---|---|
+| `FS25_APS_AgricultureScience.zip` | **A.P.S.**, including A.S.S. | 1.0.0.0 |
+| `FS25_SmartGate_AgricultureScience.zip` | **L.E.G.S.** | 1.0.0.0 |
+| `FS25_NECK_AgricultureScience.zip` | **N.E.C.K.** | 0.1.0.0 |
 
-There are **two** mod ZIPs: `FS25_APS_AgricultureScience.zip` (APS **plus ASS**) and `FS25_SmartGate_AgricultureScience.zip` (LEGS). AutoDrive is required for automated driving (reference **3.0.1.4**, not included). Basic APS parking and SmartGate gate controls can work independently; **ASS service execution requires both mods**. Courseplay is optional.
+**Install AutoDrive separately:** A.P.S. and N.E.C.K. declare `FS25_AutoDrive` as a required dependency in their `modDesc.xml`. AutoDrive **3.0.1.4** is the reference used, not a proven minimum. L.E.G.S. can be used on its own. A.S.S. service features require **both A.P.S. and L.E.G.S.** Courseplay is optional.
 
-## Single-player setup
+## New installation
 
-1. Completely exit FS25. **Back up your savegame and existing mod files.**
-2. Unpack an outer bundle **only if one was actually supplied**. Otherwise use the two individual mod ZIPs. GitHub source-code archives are not installable FS25 mods.
-3. Copy both **unmodified ZIPs** to the active mods folder. Do not extract the individual mod ZIPs. Remove parallel older ZIPs or unpacked folders using the same mod names.
-4. Install AutoDrive separately, enable the relevant mods in the savegame, and verify your AutoDrive network.
-5. Open the shared **Agriculture Science** tab and check APS, LEGS, ASS and Audio views. Unavailable module pages may be disabled.
-6. For services, configure a supported native service source and bay in LEGS first; test one manual ASS service before enabling automation. See [ASS tutorial](TUTORIAL_ASS.md).
+1. Fully exit FS25; back up your savegame and existing mods.
+2. Once approved, download the desired **individual mod ZIPs** from [GitHub Releases](https://github.com/The-0kami/FS25_AgricultureScience/releases). GitHub's automatically generated source archive is **not an installable game mod**.
+3. Extract an optional outer *Complete* bundle first. **Do not extract the inner mod ZIPs.**
+4. Copy the individual unchanged ZIPs to your active FS25 mods folder. Remove older duplicates.
+5. Install AutoDrive separately, enable the required mods for your savegame and check their menus and functions.
 
-## Dedicated server
+## Updates and servers
 
-1. Stop the server. Back up the savegame, installed mod ZIPs and the **server's `smartGate.xml`**.
-2. Use **identical mod ZIP files** and compatible AutoDrive builds on the server and all clients.
-3. Compare **SHA-256 hashes**, not only `1.0.0.0` version labels: several candidate builds share that version. See [build status](../BUILD_STATUS.md).
-4. Check farm permissions, native service sources, bay reservations and AD routing. The full current package is **not yet Dedi-verified**.
+Back up `smartGate.xml` and your AutoDrive destinations before updating. Older LEGS service bays with numeric AutoDrive destinations may require reselecting the destination: [migration guide](MIGRATION_AD_TARGETS.md). On MP/dedicated servers use **byte-identical mod ZIPs** on all clients and the server; verify SHA-256 rather than relying only on the version string. Full current dedicated-server end-to-end testing remains pending.
 
-## Updating an existing installation
+## Setup and support
 
-1. Record current ZIP hashes and create backups.
-2. Select a compatible pair of ZIPs; do not leave duplicate versions installed.
-3. Verify existing gates, triggers, service sources and AD destinations in your savegame.
-4. **For the 29 October SmartGate identity candidate and its successor:** Re-select every legacy bay AD destination with a positive index from the live list once, to capture its name and coordinates. Do not silently trust a stale index. See [migration guide](MIGRATION_AD_TARGETS.md).
-5. Test a single vehicle and bay before enabling automated jobs.
+[A.P.S. tutorial](TUTORIAL_APS.md) · [A.S.S. tutorial](TUTORIAL_ASS.md) · [L.E.G.S. tutorial](TUTORIAL_LEGS.md) · [Troubleshooting](TROUBLESHOOTING.md) · [Compatibility](../COMPATIBILITY.md)
 
-## External sound packs
-
-Custom voice packs live outside the mod ZIP at `modSettings/APS_sounds/voices/`. Back up custom edits before updating. Existing external default voice files are not blindly overwritten. Private packs are not part of a public release.
-
-## Notes
-
-FS25 `1.25.0.0` is a documented test version, **not a proven universal minimum**. Do not describe the new target identity fix as functional in-game before installation and native tests.
-
-
-
-![Agriculture Science overview with three available module cards.](../assets/ui/common/as_modules_en.png)
-
-*Agriculture Science overview with three available module cards.*
-
-Disabled cards may indicate a missing module, inactive session selection, missing dependency or unavailable registered view. Read the specific reason.
-
-
-![Example of a disabled A.S.S. card when its view is not ready.](../assets/ui/common/as_module_unavailable_en.png)
-
-*Example of a disabled A.S.S. card when its view is not ready.*
+**About earlier illustrations:** The UI images from 29 October 2026 are code-generated previews, not in-game screenshots. The new 15 November DE/EN UI previews are being prepared separately for the GitHub documentation.
