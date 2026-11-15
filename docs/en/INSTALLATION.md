@@ -26,11 +26,13 @@
 
 **All three mod packages are loaded**
 
-![All three mod packages are loaded.](../assets/ui/current/01_Settings/EN/overview_all.png)
+![All three mod packages are loaded.](../assets/ui/v2/settings/en/overview_all.png)
 
 **N.E.C.K. is unavailable in this session**
 
-![N.E.C.K. is unavailable in this session.](../assets/ui/current/01_Settings/EN/overview_without_neck.png)
+![N.E.C.K. is unavailable in this session.](../assets/ui/v2/settings/en/overview_without_neck.png)
+
+[Basics and Deep Dive in the UI catalogue](../UI_CATALOG.md#aktueller-bildsatz--current-image-set)
 
 ## Updates and servers
 

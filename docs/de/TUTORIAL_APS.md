@@ -1,14 +1,10 @@
 # Tutorial: A.P.S. – Advanced Parking Sequence
 
-> **Zu den Bildern:** Codebasierte UI-Abbildungen vom 29.10.2026 mit Beispieldaten, keine Ingame-Screenshots. Engine-Schrift, Farben und native Fenster können abweichen. Die Bildaufteilung der Settings ist für die Dokumentation paginiert; im Spiel wird gescrollt. [Bildnachweis und Grenzen](../UI_CATALOG.md).
+> **Zu den Bildern:** Codebasierte UI-Abbildungen mit Beispieldaten, keine Ingame-Screenshots. Engine-Schrift, Farben und native Fenster können abweichen. Die Bildaufteilung der Settings ist für die Dokumentation paginiert; im Spiel wird gescrollt. [Bildnachweis und Grenzen](../UI_CATALOG.md).
 
 APS organisiert das Parken eines Zugfahrzeugs und von **bis zu zwei geeigneten direkt angehängten Geräten**. AutoDrive übernimmt die Navigation; APS kontrolliert Reihenfolge und native Abkuppelbedingungen. A.S.S. ist in derselben Mod-ZIP enthalten, Servicefunktionen benötigen zusätzlich LEGS.
 
-
-
-![Agriculture-Science-Übersicht mit drei verfügbaren Modulkarten.](../assets/ui/common/as_modules_de.png)
-
-*Agriculture-Science-Übersicht mit drei verfügbaren Modulkarten.*
+![Gemeinsame Modulübersicht](../assets/ui/v2/settings/de/overview_all.png)
 
 ## 1. Vorbereitung
 
@@ -17,9 +13,7 @@ APS organisiert das Parken eines Zugfahrzeugs und von **bis zu zwei geeigneten d
 3. Starte zum Kennenlernen mit einem normalen Traktor und **einem** angehängten Gerät. Komplexe Gespanne, gefaltete Geräte und Drehschemel erst später testen.
 4. Öffne den gemeinsamen Reiter **Agriculture Science → A.P.S.** und aktiviere die gewünschten Optionen für manuelle beziehungsweise unterstützte Jobende-Abläufe.
 
-
-
-![Globale A.P.S.-Optionen für Geräteparken und Jobende-Übernahme.](../assets/ui/aps/aps_parking_settings_de.png)
+![Globale A.P.S.-Optionen für Geräteparken und Jobende-Übernahme.](../assets/ui/v2/settings/de/aps.png)
 
 *Globale A.P.S.-Optionen für Geräteparken und Jobende-Übernahme.*
 
@@ -30,9 +24,7 @@ APS organisiert das Parken eines Zugfahrzeugs und von **bis zu zwei geeigneten d
 - APS prüft Ziele und Zustand, fährt zum ersten Geräteparkmarker, kuppelt unter den **nativen Spielbedingungen** ab, bearbeitet gegebenenfalls das zweite geeignete Gerät und fährt danach zum Fahrzeugparkziel.
 - Bei lernpflichtigen Gerätekonfigurationen dem vorgesehenen Teach-/Lernablauf folgen; nicht jedes Modgerät ist automatisch kompatibel.
 
-
-
-![Hinweis bei notwendigem manuellen Lernschritt; angenäherte Meldungsfläche.](../assets/ui/aps/aps_teach_required_de.png)
+![Hinweis bei notwendigem manuellen Lernschritt; angenäherte Meldungsfläche.](../assets/ui/v2/aps/de/teach_required.png)
 
 *Hinweis bei notwendigem manuellen Lernschritt; angenäherte Meldungsfläche.*
 
@@ -55,4 +47,3 @@ Im SP ohne Fahrer beobachten: Gerät wird wirklich abgestellt, native Abkuppelbe
 Bei unerwartetem Halt Fahrzeug, Attachments, AD-Route, Auftrag und **aktuellen Serverlog** dokumentieren. Ein älterer Fall nicht fortgesetzten Parkens nach einer Servicewarnung gilt nicht pauschal als behoben.
 
 Weiter: [ASS](TUTORIAL_ASS.md) · [Troubleshooting](TROUBLESHOOTING.md).
-

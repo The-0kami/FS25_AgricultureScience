@@ -26,11 +26,13 @@
 
 **Alle drei Modpakete sind geladen**
 
-![Alle drei Modpakete sind geladen.](../assets/ui/current/01_Settings/DE/overview_all.png)
+![Alle drei Modpakete sind geladen.](../assets/ui/v2/settings/de/overview_all.png)
 
 **N.E.C.K. ist in dieser Spielsitzung nicht geladen**
 
-![N.E.C.K. ist in dieser Spielsitzung nicht geladen.](../assets/ui/current/01_Settings/DE/overview_without_neck.png)
+![N.E.C.K. ist in dieser Spielsitzung nicht geladen.](../assets/ui/v2/settings/de/overview_without_neck.png)
+
+[Grundlagen und Deep Dive im UI-Katalog](../UI_CATALOG.md#aktueller-bildsatz--current-image-set)
 
 ## Updates und Server
 

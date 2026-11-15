@@ -1,5 +1,42 @@
 # UI-Katalog / UI catalogue
 
+## Aktueller Bildsatz / Current image set
+
+Die GUI-Vorschauen basieren auf den aktuellen Lua-Steuerelementen und Zeichenaufrufen mit Beispieldaten. Die native Schrift, das Layout einzelner Controls und die Tourdarstellung sind angenähert. Die Draufsicht zeigt zwei Bays aus der Testkonfiguration. Der separate A.S.S.-Screenshot stammt direkt aus LS25.
+
+GUI previews use the current Lua controls and draw calls with demo data. Native fonts, some control layouts, and tour presentation are approximated. The top view shows two bays from the test fixture. The separate A.S.S. screenshot was captured in FS25.
+
+[Echter Ingame-Screenshot / In-game screenshot](assets/branding/ass-servicebereich-ingame.png)
+
+| Ansicht / View | DE | EN |
+| --- | --- | --- |
+| Modulübersicht / Module overview | [DE](assets/ui/v2/settings/de/overview_all.png) | [EN](assets/ui/v2/settings/en/overview_all.png) |
+| N.E.C.K. nicht verfügbar / N.E.C.K. unavailable | [DE](assets/ui/v2/settings/de/overview_without_neck.png) | [EN](assets/ui/v2/settings/en/overview_without_neck.png) |
+| A.P.S.-Parkoptionen / A.P.S. parking options | [DE](assets/ui/v2/settings/de/aps.png) | [EN](assets/ui/v2/settings/en/aps.png) |
+| A.S.S.-Einstellungen / A.S.S. settings | [DE](assets/ui/v2/settings/de/ass.png) | [EN](assets/ui/v2/settings/en/ass.png) |
+| L.E.G.S.-Einstellungen / L.E.G.S. settings | [DE](assets/ui/v2/settings/de/legs.png) | [EN](assets/ui/v2/settings/en/legs.png) |
+| N.E.C.K.-Kameraperspektiven / N.E.C.K. camera perspectives | [DE](assets/ui/v2/settings/de/neck.png) | [EN](assets/ui/v2/settings/en/neck.png) |
+| Audio-Einstellungen / Audio settings | [DE](assets/ui/v2/settings/de/audio.png) | [EN](assets/ui/v2/settings/en/audio.png) |
+| Grundlagen / Basics | [DE](assets/ui/v2/tour/de/basics.png) | [EN](assets/ui/v2/tour/en/basics.png) |
+| Deep Dive / Detailed tour | [DE](assets/ui/v2/tour/de/deep_dive.png) | [EN](assets/ui/v2/tour/en/deep_dive.png) |
+| Verwaltung / Management | [DE](assets/ui/v2/service/de/management.png) | [EN](assets/ui/v2/service/en/management.png) |
+| Bay-Geometrie / Bay geometry | [DE](assets/ui/v2/service/de/geometry.png) | [EN](assets/ui/v2/service/en/geometry.png) |
+| AD-Ziel / AutoDrive destination | [DE](assets/ui/v2/service/de/ad_target.png) | [EN](assets/ui/v2/service/en/ad_target.png) |
+| Services und Quelle / Services and source | [DE](assets/ui/v2/service/de/service_source.png) | [EN](assets/ui/v2/service/en/service_source.png) |
+| Bereich mit zwei Bays / Area with two bays | [DE](assets/ui/v2/service/de/area_two_bays.png) | [EN](assets/ui/v2/service/en/area_two_bays.png) |
+| Torprofil / Gate profile | [DE](assets/ui/v2/legs/de/gate_auto.png) | [EN](assets/ui/v2/legs/en/gate_auto.png) |
+| Manueller Vorlauf / Manual lookahead | [DE](assets/ui/v2/legs/de/gate_manual.png) | [EN](assets/ui/v2/legs/en/gate_manual.png) |
+| Interactive-Trigger / Interactable trigger | [DE](assets/ui/v2/legs/de/interactive_tripwire.png) | [EN](assets/ui/v2/legs/en/interactive_tripwire.png) |
+| Lernhinweis / Manual teaching notice | [DE](assets/ui/v2/aps/de/teach_required.png) | [EN](assets/ui/v2/aps/en/teach_required.png) |
+| Belegung unbekannt / Unknown occupancy | [DE](assets/ui/v2/service/de/occupancy_unknown.png) | [EN](assets/ui/v2/service/en/occupancy_unknown.png) |
+| Belegt und reserviert / Occupied and reserved | [DE](assets/ui/v2/service/de/occupied_reserved.png) | [EN](assets/ui/v2/service/en/occupied_reserved.png) |
+| Reparaturbeleg / Repair receipt | [DE](assets/ui/v2/service/de/receipt_repair.png) | [EN](assets/ui/v2/service/en/receipt_repair.png) |
+| Tankbeleg / Refuel receipt | [DE](assets/ui/v2/service/de/receipt_refuel.png) | [EN](assets/ui/v2/service/en/receipt_refuel.png) |
+
+## Archiv vom 29.10.2026 / 29 October 2026 archive
+
+Die folgenden Angaben und Links dokumentieren den historischen Bildsatz. / The notes and links below describe the historical image set.
+
 ## Deutsch
 
 **48 ausgewählte Abbildungen: 24 Schritte/Zustände jeweils auf Deutsch und Englisch.** Grundlage ist der Katalog vom 29.10.2026 mit 127 Einzelbildern. Das ZIP enthält zusätzlich eine PNG-Vorschau und einen JPG-Kontaktbogen, insgesamt 129 Bilddateien. ZIP-CRC und vollständiges Decodieren aller Bilder wurden lokal geprüft.
