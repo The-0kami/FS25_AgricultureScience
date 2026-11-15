@@ -5,7 +5,7 @@
 
 Agriculture Science is a collection of independently installable Farming Simulator 25 mods built around smarter vehicle parking, service automation, gate control and cinematic camera workflows.
 
-**[Deutsch](#deutsch) · [English](#english) · [Downloads](#downloads--releases) · [Documentation](#documentation--dokumentation) · [Issues](../../issues)**
+**[Deutsch](#deutsch) · [English](#english) · [Downloads](#downloads--releases) · [Documentation](#documentation--dokumentation) · [Issues](https://github.com/The-0kami/FS25_AgricultureScience/issues)**
 
 > **Release status · In preparation**  
 > Three installable modules are being prepared and verified. There is **no public GitHub release yet**. The automatically generated GitHub “Source code” ZIP is **not** an installable FS25 mod.
@@ -30,7 +30,7 @@ Agriculture Science erweitert den Landwirtschafts-Simulator 25 um aufeinander ab
 ### Installation
 
 1. Sichere deinen Spielstand und beende LS25 vollständig.
-2. Lade nach Veröffentlichung die gewünschte **Mod-ZIP** von [GitHub Releases](../../releases). A.P.S., L.E.G.S. und N.E.C.K. können einzeln installiert werden.
+2. Lade nach Veröffentlichung die gewünschte **Mod-ZIP** von [GitHub Releases](https://github.com/The-0kami/FS25_AgricultureScience/releases). A.P.S., L.E.G.S. und N.E.C.K. können einzeln installiert werden.
 3. Kopiere die einzelnen Mod-ZIPs **ungeöffnet** in deinen aktiven LS25-Modordner. Ein optionales Agriculture-Science-Komplettpaket muss zuvor entpackt werden.
 4. Aktiviere die entsprechenden Mods in deinem Spielstand. Installiere **AutoDrive separat**, wenn du die davon abhängigen Fahrfunktionen verwenden möchtest.
 
@@ -40,7 +40,7 @@ Für Updates, bestehende Serviceplätze und Dedicated Server bitte vorab die Hin
 
 ### Hilfe und Rückmeldungen
 
-Probleme, Verbesserungsvorschläge und Testerfahrungen sind willkommen. Erstelle dafür ein [GitHub Issue](../../issues) mit Modversion, FS25-/AutoDrive-Version, Einzelspieler-/Mehrspieler-/Serverumgebung, Schritten zur Reproduktion und einem **bereinigten** Logauszug. Bitte keine Passwörter, privaten Serverdaten oder persönlichen Informationen veröffentlichen.
+Probleme, Verbesserungsvorschläge und Testerfahrungen sind willkommen. Erstelle dafür ein [GitHub Issue](https://github.com/The-0kami/FS25_AgricultureScience/issues) mit Modversion, FS25-/AutoDrive-Version, Einzelspieler-/Mehrspieler-/Serverumgebung, Schritten zur Reproduktion und einem **bereinigten** Logauszug. Bitte keine Passwörter, privaten Serverdaten oder persönlichen Informationen veröffentlichen.
 
 ---
 
@@ -62,7 +62,7 @@ Agriculture Science extends Farming Simulator 25 with a coordinated set of autom
 ### Installation
 
 1. Back up your savegame and close FS25.
-2. Once available, download the desired **mod ZIP** from [GitHub Releases](../../releases). A.P.S., L.E.G.S. and N.E.C.K. can be installed individually.
+2. Once available, download the desired **mod ZIP** from [GitHub Releases](https://github.com/The-0kami/FS25_AgricultureScience/releases). A.P.S., L.E.G.S. and N.E.C.K. can be installed individually.
 3. Copy the individual mod ZIPs **without extracting them** to your active FS25 mods folder. Extract an optional outer Agriculture Science bundle first.
 4. Enable the mods for your savegame. Install **AutoDrive separately** for functions that depend on automated driving.
 
@@ -72,7 +72,7 @@ Before upgrading existing installations or configuring a dedicated server, read 
 
 ### Support and feedback
 
-Bug reports, suggestions and external testing feedback are welcome through [GitHub Issues](../../issues). Include mod version, FS25/AutoDrive versions, SP/MP/dedicated-server context, steps to reproduce and a **redacted** log. Do not post credentials, private server details or personal data.
+Bug reports, suggestions and external testing feedback are welcome through [GitHub Issues](https://github.com/The-0kami/FS25_AgricultureScience/issues). Include mod version, FS25/AutoDrive versions, SP/MP/dedicated-server context, steps to reproduce and a **redacted** log. Do not post credentials, private server details or personal data.
 
 ---
 
@@ -85,7 +85,7 @@ Bug reports, suggestions and external testing feedback are welcome through [GitH
 - `FS25_NECK_AgricultureScience.zip` — N.E.C.K.
 - An optional **Complete** archive containing the same three individual ZIPs (extract this outer archive before installing).
 
-**[GitHub Releases](../../releases)** is the intended download location. **No installable assets have been published yet.** H.E.A.D. and internal DevTools are excluded.
+**[GitHub Releases](https://github.com/The-0kami/FS25_AgricultureScience/releases)** is the intended download location. **No installable assets have been published yet.** H.E.A.D. and internal DevTools are excluded.
 
 ## Documentation / Dokumentation
 
