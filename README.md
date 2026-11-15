@@ -1,70 +1,96 @@
-# Agriculture Science Pack
+# Agriculture Science – Farming Simulator 25
 
-**Farming Simulator 25 · Documentation for development candidates / Dokumentation der Testkandidaten**
+**Modulare Automatisierung und Kamera-Werkzeuge für Farming Simulator 25.**  
+**Modular automation and camera tools for Farming Simulator 25.**
 
-[Deutsch](#deutsch) | [English](#english) | [Builds & SHA-256](docs/BUILD_STATUS.md)
+[Deutsch](#deutsch) · [English](#english) · [Release preparation / Release-Vorbereitung](docs/RELEASE_PREPARATION.md) · [Historische Build-Matrix](docs/BUILD_STATUS.md)
+
+> **Release-Vorbereitung / Release preparation – 14.11.2026:** Lokaler Stand vom Nutzer bestätigt; **keine Release-Freigabe**. Local versions and candidate SHA-256 hashes are documented below; they are **not approved downloads**. October 2026 build notes remain historical.
 
 ## Deutsch
 
-**Drei Systeme, ein gemeinsamer Ablauf.** Agriculture Science verbindet automatisiertes Fahrzeugparken, intelligente Torsteuerung und autonome Fahrzeugwartung.
+Agriculture Science besteht aus **unabhängig installierbaren Modulen**. Jedes Modul bringt laut aktuellem Projektstand seine eigene Menü-/UI-Integration mit. Es ist keine zusätzliche gemeinsame GUI-Mod vorgesehen.
 
-- **A.P.S. – Advanced Parking Sequence:** Koordiniert AutoDrive-Parkabläufe, das Abstellen und Abkuppeln von bis zu zwei direkt angehängten Geräten sowie die anschließende Fahrzeugparkfahrt.
-- **L.E.G.S. – Logical Entrance Guidance System:** Steuert Tore und Interactables und stellt die Infrastruktur mit Servicebereichen, Bays und Reservierungen bereit.
-- **A.S.S. – Autonomous Service Supervisor:** Verbindet Fahrzeugabläufe und Serviceinfrastruktur, um unterstützte Wasch-, Reparatur-, Tank- und Ladevorgänge zu koordinieren. Optional zeigt es lokale Servicebelege an.
+| Modul | Zweck | Verteilung |
+|---|---|---|
+| **A.P.S. – Advanced Parking Sequence** | Koordiniert AutoDrive-Parkabläufe und unterstützte Geräte-/Fahrzeugübergaben | Eigenständige Mod-ZIP |
+| **A.S.S. – Autonomous Service Supervisor** | Koordiniert unterstützte Wasch-, Reparatur-, Tank-/Ladeabläufe und Serviceanzeigen | **Bestandteil von A.P.S.**, keine eigene ZIP |
+| **L.E.G.S. – Logical Entrance Guidance System** | Tore, Interaktionen und Infrastruktur für Servicebereiche, Bays und Reservierungen | Eigenständige Mod-ZIP mit technischer SmartGate-Identität |
+| **N.E.C.K. – New External Camera Kit** | Eigenständige Kameramod mit Kameraperspektiven und Aufnahmen im AutoDrive-Fahrkontext | Eigenständige Mod-ZIP |
+| **H.E.A.D. – Heuristic Environmental Analysis Drone** | Separate Drohnen-/Scan-Mod, derzeit in Entwicklung | **Nicht Teil des ersten Releases** |
 
-**Technischer Paketinhalt:** Zwei Mod-ZIPs: `FS25_APS_AgricultureScience.zip` (mit A.S.S.-Steuerlogik) und `FS25_SmartGate_AgricultureScience.zip` (L.E.G.S.-Serviceinfrastruktur). Für A.S.S.-Services arbeiten beide zusammen.
+**Geplante Downloads (noch nicht veröffentlicht):** Einzel-ZIPs für A.P.S. (inkl. A.S.S.), L.E.G.S. und N.E.C.K.; zusätzlich ein **Komplettpaket**, das dieselben unveränderten Mod-ZIPs enthält. Das Komplettpaket muss vor der Installation **entpackt** werden; nur die einzelnen installierbaren Mod-ZIPs gehören in den aktiven Mods-Ordner.
 
-**Status: Entwicklungs-/Preview-Dokumentation – keine finale 1.0-Freigabe.** Der SmartGate-Kandidat `SG_InteractionDescription_20261029` enthält die stabile AD-Zielidentität und die bereinigte Interactive-Beschreibungszeile. Er ist **lokal installiert und automatisiert geprüft, aber noch nicht im Spiel/Dedi bestätigt**. Das ist keine Aussage über die Installation auf fremden Servern. Bestehende Bay-Ziele müssen einmal neu ausgewählt werden. Gleiche Modversion `1.0.0.0` bedeutet nicht bytegleiche ZIPs. [Details und Prüfsummen](docs/BUILD_STATUS.md).
+### Bestätigter lokaler Stand – 14.11.2026
 
-**Voraussetzungen:** LS25 (Teststand 1.25.0.0), AutoDrive (Referenz 3.0.1.4) für Fahrten, beide AS-Mods für ASS-Service; Courseplay optional. Nicht alle Gebäude, Energietypen, Geräte oder MP-Fälle sind abgenommen.
+Vom Nutzer bestätigte lokale Installation; Archive und Prüfsummen wurden im Rahmen dieser Dokumentationsänderung nicht unabhängig geprüft. **Lokale Testkandidaten, keine freigegebenen Downloads.**
 
-### Anleitungen auf Deutsch
+| Modul / Module | Version | ZIP | SHA-256 |
+|---|---|---|---|
+| A.P.S. (inkl. A.S.S. und Audio / incl. A.S.S. and audio) | 1.0.0.0 | `FS25_APS_AgricultureScience.zip` | `5072b6720ead3e59e13269086267cb2cdba0e6f52b3a265e94634f1abc7c3294` |
+| L.E.G.S. | 1.0.0.0 | `FS25_SmartGate_AgricultureScience.zip` | `d1c2e313021b57307d0b7d24a3cb3bf4633e55d696f80faa050a127a617db679` |
+| N.E.C.K. | 0.1.0.0 | `FS25_NECK_AgricultureScience.zip` | `07d3e10fbdd603b19901d835cd422ca5632263cb1db11b4082591b08d770c41f` |
 
-- [Installation, Update, Dedicated Server](docs/de/INSTALLATION.md)
-- [APS: Parken und Abkuppeln](docs/de/TUTORIAL_APS.md)
-- [LEGS: Tore, Trigger und Safety](docs/de/TUTORIAL_LEGS.md)
-- [ASS: Service-Bays, WASH, REPAIR und REFUEL](docs/de/TUTORIAL_ASS.md)
-- [AD-Zielmigration für neueren SG-Kandidaten](docs/de/MIGRATION_AD_TARGETS.md)
-- [Fehlerdiagnose und Bugreports](docs/de/TROUBLESHOOTING.md)
-- [Bildnachweis und UI-Galerie](docs/UI_CATALOG.md)
-- [Buildstatus und Hashes](docs/BUILD_STATUS.md)
+**Abhängigkeiten:** AutoDrive **3.0.1.4** ist die verwendete Referenz, keine daraus abgeleitete Mindestversion. AutoDrive ist separat zu installieren. N.E.C.K.-Filmfahrten benötigen aktives AutoDrive; die Vorschau funktioniert im besetzten Fahrzeug ohne aktives AutoDrive. L.E.G.S.-Torsteuerung läuft eigenständig; AutoDrive-Voröffnung ist optional. Die A.S.S.-Ansicht setzt geladenes A.P.S.+L.E.G.S. und eine registrierte Ansicht voraus.
+
+**Tutorials und Host:** Alle drei Mods enthalten den gemeinsamen Host; der Host-Umbau erfolgte einmalig und koordiniert. Tourtexte und Gruppen stammen jetzt aus den Einstellungsmodulen. Fehlende Module sind ausgegraut und werden im Deep Dive übersprungen. Laut Nutzer bestanden die Lua-Tests für Teilinstallationen, fehlende/inkompatible Tourdaten und den Austausch eines Modultexts bei gleichem Host. Die modulare Tour muss noch im Spiel geprüft werden.
+
+**L.E.G.S. neu:** „Serviceplätze → Beispiel“ erklärt einen Bereich gegenüber zwei Bays. Quelle und AD-Haltepunkt werden direkt in der Welt dargestellt; eigenes Kraftfeld und lokale Farben erscheinen auf den L.E.G.S./A.S.S.-Karten. Die neuesten Effekte sind noch im Spiel zu prüfen.
+
+**Separat in Entwicklung:** H.E.A.D. **0.1.0.0** mit 6,9 Sekunden Startanimation, neuem räumlichem Scan, Ergebnisbox am Feld und bis zu acht überlappenden Scanflächen pro Flug; visueller Ingame-Test offen. DevTools **0.5.0.0** ist ein internes Diagnosewerkzeug. Beide gehören nicht ins öffentliche Dreierpaket.
+
+- [Release-Konzept und offene Freigabepunkte](docs/RELEASE_PREPARATION.md)
+- [Deutsch: bisherige Installation](docs/de/INSTALLATION.md) · [APS](docs/de/TUTORIAL_APS.md) · [LEGS](docs/de/TUTORIAL_LEGS.md) · [ASS](docs/de/TUTORIAL_ASS.md)
+- [UI-Bildherkunft und ältere Dokumentationsgrafiken](docs/UI_CATALOG.md)
+- [Historische Build-/SHA-256-Nachweise](docs/BUILD_STATUS.md)
 
 ## English
 
-**Three systems. One workflow.** Agriculture Science brings together automated vehicle parking, intelligent gate control and autonomous servicing.
+Agriculture Science is a set of **independently installable mods**. According to the current project status, each module carries its own menu/UI integration; there is no separate shared UI mod to install.
 
-- **A.P.S. – Advanced Parking Sequence:** Coordinates AutoDrive parking, detaching up to two suitable directly attached implements, and driving the vehicle to its parking destination.
-- **L.E.G.S. – Logical Entrance Guidance System:** Controls gates and interactables and provides service-area infrastructure, bays and reservations.
-- **A.S.S. – Autonomous Service Supervisor:** Connects vehicle workflows with service infrastructure to coordinate supported washing, repair, refueling and charging. Optional local service receipts are available.
+| Module | Purpose | Distribution |
+|---|---|---|
+| **A.P.S. – Advanced Parking Sequence** | Coordinates AutoDrive parking and supported implement/vehicle hand-offs | Standalone mod ZIP |
+| **A.S.S. – Autonomous Service Supervisor** | Coordinates supported wash, repair, refuel/charge flows and service displays | **Included in A.P.S.**, not a separate ZIP |
+| **L.E.G.S. – Logical Entrance Guidance System** | Gates, interactions, service infrastructure, bays and reservations | Standalone mod ZIP; internal SmartGate identity |
+| **N.E.C.K. – New External Camera Kit** | Standalone camera mod for camera perspectives and recordings during AutoDrive driving | Standalone mod ZIP |
+| **H.E.A.D. – Heuristic Environmental Analysis Drone** | Separate drone/scan project currently in development | **Not included in the first release** |
 
-**Technical package contents:** Two mod ZIPs: `FS25_APS_AgricultureScience.zip` (including ASS coordination logic) and `FS25_SmartGate_AgricultureScience.zip` (LEGS service infrastructure). Both are used together for ASS services.
+**Planned downloads (not published yet):** Individual ZIP files for A.P.S. (including A.S.S.), L.E.G.S. and N.E.C.K., plus a **Complete Package** containing those same unmodified ZIP files. Extract the outer Complete Package first; install only the individual mod ZIPs into the active mods directory.
 
-**Status: development/preview documentation, not a final 1.0 release.** SmartGate candidate `SG_InteractionDescription_20261029` contains stable AD destination identity and the cleaned-up interactable description row. It is **locally installed and automatically tested, but not yet verified in-game/on Dedi**. This does not describe deployment to other servers. Existing bay destinations require one deliberate re-selection. The shared mod version `1.0.0.0` does not mean identical binaries. See [build matrix](docs/BUILD_STATUS.md).
+### Confirmed local status – 14 November 2026
 
-**Requirements:** FS25 (documented test 1.25.0.0), AutoDrive (reference 3.0.1.4) for driving, both AS mods for ASS services; Courseplay optional. Not every building, energy type, implement or multiplayer case is verified.
+User-confirmed local installation; archives and checksums were not independently verified as part of this documentation change. **Local test candidates, not approved downloads.**
 
-### English guides
+| Modul / Module | Version | ZIP | SHA-256 |
+|---|---|---|---|
+| A.P.S. (inkl. A.S.S. und Audio / incl. A.S.S. and audio) | 1.0.0.0 | `FS25_APS_AgricultureScience.zip` | `5072b6720ead3e59e13269086267cb2cdba0e6f52b3a265e94634f1abc7c3294` |
+| L.E.G.S. | 1.0.0.0 | `FS25_SmartGate_AgricultureScience.zip` | `d1c2e313021b57307d0b7d24a3cb3bf4633e55d696f80faa050a127a617db679` |
+| N.E.C.K. | 0.1.0.0 | `FS25_NECK_AgricultureScience.zip` | `07d3e10fbdd603b19901d835cd422ca5632263cb1db11b4082591b08d770c41f` |
 
-- [Install, update and dedicated servers](docs/en/INSTALLATION.md)
-- [APS: parking and detaching](docs/en/TUTORIAL_APS.md)
-- [LEGS: gates, triggers and safety](docs/en/TUTORIAL_LEGS.md)
-- [ASS: bays, WASH, REPAIR and REFUEL](docs/en/TUTORIAL_ASS.md)
-- [AD destination migration for newer SG candidate](docs/en/MIGRATION_AD_TARGETS.md)
-- [Troubleshooting and bug reports](docs/en/TROUBLESHOOTING.md)
-- [Image provenance and UI gallery](docs/UI_CATALOG.md)
-- [Build status and hashes](docs/BUILD_STATUS.md)
+**Dependencies:** AutoDrive **3.0.1.4** is the reference used, not an inferred minimum version. Install AutoDrive separately. N.E.C.K. filming drives require active AutoDrive; preview works in an occupied vehicle without active AutoDrive. L.E.G.S. gate control works independently; AutoDrive pre-opening is optional. The A.S.S. view requires loaded A.P.S.+L.E.G.S. and a registered view.
 
-## Downloads / Veröffentlichungen
+**Tutorials and host:** All three mods carry the shared host; its refactoring was a single coordinated change. Tour text and groups now come from the settings modules. Missing modules are greyed out and skipped by Deep Dive. The user reports passing Lua tests for partial installations, missing/incompatible tour data, and replacing a module text while retaining the same host. The modular tour still needs in-game verification.
 
-**In diesem Repository wurden noch keine Mod-ZIPs oder Releases veröffentlicht. / No mod ZIPs or releases have been published in this repository yet.** A GitHub auto-generated source archive is not an installable game mod. [Releases](../../releases) will be used only after separate approval.
+**New in L.E.G.S.:** “Service spaces → Example” explains one area versus two bays. The source and AD stopping point are shown directly in the world; a dedicated force field and local colours appear on the L.E.G.S./A.S.S. maps. The latest effects still need in-game verification.
 
-## Rechte / Rights
+**Separate development:** H.E.A.D. **0.1.0.0** has a 6.9-second start animation, a new spatial scan, a result box at the field, and up to eight overlapping scan areas per flight; visual in-game testing is pending. DevTools **0.5.0.0** is an internal diagnostic tool. Neither belongs in the public three-mod package.
 
-Default voice/music redistribution was confirmed by the project owner; this does **not** authorize sharing private voice packs or unrelated media. CC0 printer SFX have separately documented source credits. Third-party code/graphic notices must be respected. **No blanket license is granted for all project assets.**
+- [Release preparation and pending checks](docs/RELEASE_PREPARATION.md)
+- [English: previous installation guide](docs/en/INSTALLATION.md) · [APS](docs/en/TUTORIAL_APS.md) · [LEGS](docs/en/TUTORIAL_LEGS.md) · [ASS](docs/en/TUTORIAL_ASS.md)
+- [Image provenance / older UI documentation](docs/UI_CATALOG.md)
+- [Historical build and SHA-256 records](docs/BUILD_STATUS.md)
 
-## Feedback
+## Downloads / Releases
 
-Use [GitHub Issues](../../issues) with the **actual ZIP SHA-256**, game/AD versions, SP/MP/Dedi context, reproducing steps and a **redacted** current log.
+**No installable release has been published here yet.** [GitHub Releases](../../releases) will host the approved individual mods and the optional collection bundle. GitHub's automatically generated **Source code (zip)** archive is **not** an installable FS25 mod.
+
+## Rights / Rechte
+
+No blanket license is granted for all third-party code, artwork, voices, music or other assets. Permissions, credits and any redistribution limits must be checked for the exact final release payload. Private voice packs and unrelated media must not be included accidentally.
+
+## Feedback / Bugreports
+
+Use [GitHub Issues](../../issues) and include the **exact ZIP SHA-256**, FS25/AutoDrive versions, SP/MP/Dedi context, reproduction steps and a **redacted** current log. Please do not publish personal information, credentials or private server access details.
 
 *Agriculture Science – Automate smarter. Farm better.*
-
