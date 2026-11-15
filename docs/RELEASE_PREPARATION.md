@@ -16,7 +16,17 @@ Die lokal gemeldeten Dateinamen und Versionen sind unten erfasst; sie müssen be
 
 Dazu kann ein äußeres Archiv `AgricultureScience_Complete_<release>.zip` erscheinen, dessen Inhalt aus **genau denselben unveränderten drei installierbaren ZIPs** besteht. Das äußere Archiv selbst wird **nicht** in LS25 als Mod installiert. Ein Release muss eine Liste der enthaltenen Modulversionen und **SHA-256 jedes Archivs** enthalten.
 
-### Export-Kandidaten – 15.11.2026
+### Maßgeblicher gebündelter BB-Export – 15.11.2026 (nur lokal)
+
+Vom Projektinhaber gemeldeter lokaler Export: `Build_Exports/AgricultureScience_BB_Export_20261115.zip` mit **gemeldeter** SHA-256 `26b5879bd0d57ec0921f5b284d2aecbaff01ab30b9c2eff384ad2df924cf3a26`.
+
+Laut Übergabe enthält das Archiv die aktuellen drei Mod-ZIPs (A.P.S. einschließlich A.S.S., L.E.G.S., N.E.C.K.), das **separate NECK BeatSync Tool** sowie UI-/GUI-Vorschauen und Mod-Bilder. H.E.A.D. und DevTools sind ausgeschlossen. **Das BeatSync Tool ist keine vierte FS25-Mod-ZIP**; seine Handhabung und Weitergabefreigabe müssen nach Einsicht in die tatsächlichen Dateien getrennt dokumentiert werden. Der BB-Export ist ein lokales Übergabe-/Arbeitsarchiv und **kein veröffentlichtes oder direkt in LS25 zu installierendes Modpaket**.
+
+**Status:** Der lokale Windows-Pfad ist von dieser Umgebung aus nicht zugänglich. Weder das Archiv noch innere Dateien sind hier eingegangen. Deshalb sind Inhaltsliste, BB-Hash und die Übereinstimmung der inneren Mod-ZIPs mit den unten dokumentierten **zuvor gemeldeten Einzelarchiv-Hashes** noch nicht unabhängig bestätigt. Die BB-Export-Dateien gelten als maßgebliche Release-Kandidaten; bei Abweichungen müssen die inneren Hashes nach Eingang neu dokumentiert werden.
+
+**Neue Pflichtabhängigkeiten laut aktuellem Build:** A.P.S. und N.E.C.K. deklarieren in `modDesc.xml` jeweils `FS25_AutoDrive` als Pflichtmod. Der Nutzer berichtet, dass LS25 beim Aktivieren dieser Mods AutoDrive automatisch zur Auswahl angeboten hat. Dies ist ein berichteter Ingame-Test, keine hier eigenständig ausgelesene `modDesc.xml`. L.E.G.S. ist eigenständig nutzbar, mit optionalen AutoDrive-Funktionen.
+
+### Zuvor gemeldete Einzel-ZIP-Kandidaten – 15.11.2026
 
 Vom Projektinhaber gemeldete aktuellere ZIP-Exporte im lokalen Ordner `Build_Exports/`; CRC, `modDesc.xml` und gemeinsamer Settings-Host wurden nach dessen Angaben lokal geprüft. **Diese Archivdateien wurden hier nicht empfangen und ihre SHA-256 nicht unabhängig nachgerechnet. Keine GitHub-Uploads und keine freigegebenen Downloads.** Die Hashes vom 14.11.2026 sind überholt.
 
@@ -26,7 +36,7 @@ Vom Projektinhaber gemeldete aktuellere ZIP-Exporte im lokalen Ordner `Build_Exp
 | L.E.G.S. | 1.0.0.0 | `FS25_SmartGate_AgricultureScience.zip` | `7aa228b254fd149f4b4f9c3483788de9e7a506e526109424210e745e3514cdbb` |
 | N.E.C.K. | 0.1.0.0 | `FS25_NECK_AgricultureScience.zip` | `c599e496e3d6571a2adf981d493490abecdfdc3bfbfc78e759ee41177df1366b` |
 
-**Abhängigkeiten:** AutoDrive **3.0.1.4** ist die verwendete Referenz, keine daraus abgeleitete Mindestversion. AutoDrive ist separat zu installieren. N.E.C.K.-Filmfahrten benötigen aktives AutoDrive; die Vorschau funktioniert im besetzten Fahrzeug ohne aktives AutoDrive. L.E.G.S.-Torsteuerung läuft eigenständig; AutoDrive-Voröffnung ist optional. Die A.S.S.-Ansicht setzt geladenes A.P.S.+L.E.G.S. und eine registrierte Ansicht voraus.
+**Abhängigkeiten:** A.P.S. und N.E.C.K. deklarieren laut aktuellem Build `FS25_AutoDrive` als **Pflichtmod**; beim Aktivieren bot LS25 nach Nutzertest die automatische AutoDrive-Mit-Auswahl an. AutoDrive **3.0.1.4** ist eine Referenz, keine festgelegte Mindestversion. AutoDrive muss installiert und aktiviert sein. N.E.C.K.-Filmfahrten benötigen aktives AutoDrive; die Vorschau funktioniert im besetzten Fahrzeug ohne aktives AutoDrive. L.E.G.S.-Torsteuerung läuft eigenständig; AutoDrive-Voröffnung ist optional. Die A.S.S.-Ansicht setzt geladenes A.P.S.+L.E.G.S. und eine registrierte Ansicht voraus.
 
 **Tutorials und Host:** Alle drei Mods enthalten den gemeinsamen Host; der Host-Umbau erfolgte einmalig und koordiniert. Tourtexte und Gruppen stammen jetzt aus den Einstellungsmodulen. Fehlende Module sind ausgegraut und werden im Deep Dive übersprungen. Laut Nutzer bestanden die Lua-Tests für Teilinstallationen, fehlende/inkompatible Tourdaten und den Austausch eines Modultexts bei gleichem Host. Die modulare Tour muss noch im Spiel geprüft werden.
 
@@ -45,7 +55,10 @@ Vorgesehener Repository-Zielordner nach Sichtprüfung: `docs/assets/release/2026
 
 ### Offene Prüfungen vor Veröffentlichung
 
+- [ ] Maßgeblichen **BB-Export** tatsächlich empfangen, SHA-256 `26b5879bd0d57ec0921f5b284d2aecbaff01ab30b9c2eff384ad2df924cf3a26` nachrechnen, Inhaltsliste prüfen (drei Mods, BeatSync, Medien; keine HEAD/DevTools); innere ZIP-Hashes mit den bisher gemeldeten Einzelwerten vergleichen.
 - [ ] Drei gemeldete **aktuelle Original-Mod-ZIPs** tatsächlich empfangen; CRC, Struktur, `modDesc.xml`, Mod-ID, Version und SHA-256 **unabhängig** prüfen und mit den gemeldeten Export-Hashes vergleichen.
+- [ ] `FS25_AutoDrive` als Pflichtabhängigkeit für A.P.S./N.E.C.K. in den tatsächlichen `modDesc.xml` prüfen und Ingame-Mit-Auswahl sowie fehlendes AutoDrive testen; L.E.G.S. ohne AD prüfen.
+- [ ] BeatSync-Tool separat sichten, Lizenz/Verteilrechte, Nutzungsanleitung und geeignete Auslieferung bestimmen; nicht stillschweigend als vierte Mod-ZIP behandeln.
 - [ ] Keine Duplikate/alten Fassungen/Privatpakete in den Releases; A.S.S. wird nicht fälschlich als eigene Mod-ZIP geführt.
 - [ ] Testmatrix mit **A.P.S. allein**, **L.E.G.S. allein**, **N.E.C.K. allein**, **A.P.S.+L.E.G.S.** und **allen drei gemeinsam**. Abhängigkeiten und nur teilweise verfügbare Funktionen korrekt erklären.
 - [x] Vom Nutzer gemeldete Lua-Tests: Teilinstallationen, fehlende/inkompatible Tourdaten, Modultext-Austausch bei gleichem Host bestanden (keine unabhängige Prüfung in dieser Dokumentationsarbeit).
@@ -75,7 +88,17 @@ Ein neuer zentraler Release bekommt eine eigene Paketkennung und dokumentiert **
 
 An optional outer `AgricultureScience_Complete_<release>.zip` contains **exactly the same unchanged individual mod ZIPs**. Extract this outer bundle first; **do not** install it as a game mod. Publish module versions and SHA-256 hashes for each archive.
 
-### Export candidates – 15 November 2026
+### Authoritative bundled BB export – 15 November 2026 (local only)
+
+Owner-reported local export: `Build_Exports/AgricultureScience_BB_Export_20261115.zip`, **reported** SHA-256 `26b5879bd0d57ec0921f5b284d2aecbaff01ab30b9c2eff384ad2df924cf3a26`.
+
+The export reportedly contains the three current FS25 mod ZIPs (A.P.S. including A.S.S., L.E.G.S., N.E.C.K.), the **separate NECK BeatSync tool**, plus UI/GUI previews and mod artwork. H.E.A.D. and DevTools are excluded. **BeatSync is not a fourth installable FS25 mod ZIP**; its packaging, instructions and redistribution approval need separate review after receiving the files. The BB export is a local handoff/work archive, **not a published or directly installable game mod package**.
+
+**Verification status:** The Windows path cannot be accessed from this environment. Neither the bundle nor its contained files has been received. Its manifest, bundle SHA-256, and whether its inner mod ZIPs match the **previously reported individual ZIP SHA-256 values below** therefore remain unverified. Use the BB export as the authoritative candidate source; replace individual hashes if verification shows that its contents differ.
+
+**New declared dependencies (owner report):** Both A.P.S. and N.E.C.K. now declare `FS25_AutoDrive` as a required mod in `modDesc.xml`. The owner reports that LS25 offered to automatically select AutoDrive when enabling the mods. This is a reported in-game test, not a `modDesc.xml` inspection performed here. L.E.G.S. remains independently usable, with optional AutoDrive integration.
+
+### Previously reported individual ZIP candidates – 15 November 2026
 
 Newer ZIP exports reported by the project owner in the local `Build_Exports/` directory; CRC, `modDesc.xml` and shared settings host were reportedly checked locally. **The archives have not been received here and their SHA-256 values have not been independently recalculated. No GitHub uploads or approved downloads.** The 14 November checksums are superseded.
 
@@ -85,7 +108,7 @@ Newer ZIP exports reported by the project owner in the local `Build_Exports/` di
 | L.E.G.S. | 1.0.0.0 | `FS25_SmartGate_AgricultureScience.zip` | `7aa228b254fd149f4b4f9c3483788de9e7a506e526109424210e745e3514cdbb` |
 | N.E.C.K. | 0.1.0.0 | `FS25_NECK_AgricultureScience.zip` | `c599e496e3d6571a2adf981d493490abecdfdc3bfbfc78e759ee41177df1366b` |
 
-**Dependencies:** AutoDrive **3.0.1.4** is the reference used, not an inferred minimum version. Install AutoDrive separately. N.E.C.K. filming drives require active AutoDrive; preview works in an occupied vehicle without active AutoDrive. L.E.G.S. gate control works independently; AutoDrive pre-opening is optional. The A.S.S. view requires loaded A.P.S.+L.E.G.S. and a registered view.
+**Dependencies:** A.P.S. and N.E.C.K. reportedly declare `FS25_AutoDrive` as a **required mod**; LS25 offered to auto-select AutoDrive in the owner's test. AutoDrive **3.0.1.4** is a reference, not an established minimum version. AutoDrive must be installed and enabled. N.E.C.K. filming drives require active AutoDrive; preview works in an occupied vehicle without active AutoDrive. L.E.G.S. gate control works independently; AutoDrive pre-opening is optional. The A.S.S. view requires loaded A.P.S.+L.E.G.S. and a registered view.
 
 **Tutorials and host:** All three mods carry the shared host; its refactoring was a single coordinated change. Tour text and groups now come from the settings modules. Missing modules are greyed out and skipped by Deep Dive. The user reports passing Lua tests for partial installations, missing/incompatible tour data, and replacing a module text while retaining the same host. The modular tour still needs in-game verification.
 
@@ -104,7 +127,10 @@ Proposed repository destination after inspection: `docs/assets/release/20261115/
 
 ### Pre-release checks
 
+- [ ] Receive the **authoritative BB bundle**, recalculate its reported SHA-256 `26b5879bd0d57ec0921f5b284d2aecbaff01ab30b9c2eff384ad2df924cf3a26`, inspect the actual contents (three mods, BeatSync, media, no HEAD/DevTools) and compare inner ZIP hashes against the previously reported individual values.
 - [ ] Receive the three **actual current mod archives**; independently verify CRC, structure, `modDesc.xml`, mod IDs, versions and SHA-256 against the owner-reported export hashes.
+- [ ] Inspect the actual `modDesc.xml` declarations requiring `FS25_AutoDrive` for A.P.S. and N.E.C.K.; test game auto-selection and missing dependency; test L.E.G.S. without AutoDrive.
+- [ ] Review the separate BeatSync tool, rights, instructions and appropriate distribution. Do not treat it as a fourth mod ZIP.
 - [ ] Keep A.S.S. within A.P.S.; exclude duplicate versions, DevTools and private packs.
 - [ ] Test each module alone, A.P.S.+L.E.G.S., and the full combination; document dependencies accurately.
 - [x] Record user-reported passing Lua tests: partial installations, missing/incompatible tour data, and module-text replacement with the same host (not independently verified in this documentation task).
