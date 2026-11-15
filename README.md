@@ -87,7 +87,7 @@ Bug reports, suggestions and external testing feedback are welcome through [GitH
 
 **[Download v0.1.0-beta.1](https://github.com/The-0kami/FS25_AgricultureScience/releases/tag/v0.1.0-beta.1)** · [Complete package](https://github.com/The-0kami/FS25_AgricultureScience/releases/download/v0.1.0-beta.1/AgricultureScience_Complete_v0.1.0-beta.1.zip) · [SHA256SUMS.txt](https://github.com/The-0kami/FS25_AgricultureScience/releases/download/v0.1.0-beta.1/SHA256SUMS.txt)
 
-This is a **public beta**, not a stable release. H.E.A.D. and internal DevTools are excluded.
+This is a **public beta**, not a stable release. H.E.A.D. is for the time being excluded.
 
 ## Ingame / Im Spiel
 
