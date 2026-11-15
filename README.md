@@ -23,7 +23,7 @@ Agriculture Science besteht aus **unabhängig installierbaren Modulen**. Jedes M
 
 ### Aktuelle lokale Build-Exports – 15.11.2026
 
-Laut lokaler Übergabe liegen diese drei aktuellen Original-ZIPs im Windows-Exportordner `Dev Assets/Build_Exports/`; CRC, `modDesc.xml` und gemeinsamer Settings-Host wurden dort geprüft. **Die Binärdateien sind diesem GitHub-Branch nicht beigefügt und ihre Hashes wurden hier nicht unabhängig nachgerechnet. Lokale Exportkandidaten, keine freigegebenen GitHub-Downloads.**
+Die drei ZIPs wurden am 15.11.2026 in diesem Chat als Dateien übergeben. **SHA-256, ZIP-CRC und `modDesc.xml` wurden unabhängig in der Arbeitsumgebung geprüft** und stimmen mit den gemeldeten Exportwerten überein. Ein äußeres Release-Candidate-Bundle wurde separat erstellt und geprüft. **Keines dieser Archive ist als GitHub-Release-Asset hochgeladen oder freigegeben.**
 
 | Modul / Module | Version | ZIP | SHA-256 |
 |---|---|---|---|
@@ -60,7 +60,7 @@ Agriculture Science is a set of **independently installable mods**. According to
 
 ### Current local build exports – 15 November 2026
 
-According to the local handoff, the three current original ZIPs are stored in the Windows `Dev Assets/Build_Exports/` folder; CRC, `modDesc.xml` and the common settings host were checked locally. **No binary ZIPs were attached to this GitHub branch and the hashes have not been independently recomputed here. Local export candidates, not approved GitHub downloads.**
+The three original ZIPs were provided as chat attachments on 15 November 2026. Their **SHA-256 hashes, ZIP CRC and `modDesc.xml` were independently checked** in the working environment against the reported export values. A separate outer release-candidate bundle was assembled and verified. **None of these archives have been uploaded or approved as GitHub Release assets.**
 
 | Modul / Module | Version | ZIP | SHA-256 |
 |---|---|---|---|
