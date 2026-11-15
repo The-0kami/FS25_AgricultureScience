@@ -1,6 +1,6 @@
 # Agriculture Science – Release preparation / Release-Vorbereitung
 
-> **Planning document / Planungsdokument, 14 November 2026; user-confirmed local status.** Not an announcement of a published release, a passed GIANTS test or a confirmed ModHub submission. The October candidate hashes in [BUILD_STATUS.md](BUILD_STATUS.md) remain **historical**.
+> **Planning document / Planungsdokument, 15 November 2026; owner-reported local export candidate status.** Not an announcement of a published release, a passed GIANTS test or a confirmed ModHub submission. The October candidate hashes in [BUILD_STATUS.md](BUILD_STATUS.md) remain **historical**.
 
 ## Deutsch
 
@@ -16,15 +16,15 @@ Die lokal gemeldeten Dateinamen und Versionen sind unten erfasst; sie müssen be
 
 Dazu kann ein äußeres Archiv `AgricultureScience_Complete_<release>.zip` erscheinen, dessen Inhalt aus **genau denselben unveränderten drei installierbaren ZIPs** besteht. Das äußere Archiv selbst wird **nicht** in LS25 als Mod installiert. Ein Release muss eine Liste der enthaltenen Modulversionen und **SHA-256 jedes Archivs** enthalten.
 
-### Bestätigter lokaler Stand – 14.11.2026
+### Export-Kandidaten – 15.11.2026
 
-Vom Nutzer bestätigte lokale Installation; Archive und Prüfsummen wurden im Rahmen dieser Dokumentationsänderung nicht unabhängig geprüft. **Lokale Testkandidaten, keine freigegebenen Downloads.**
+Vom Projektinhaber gemeldete aktuellere ZIP-Exporte im lokalen Ordner `Build_Exports/`; CRC, `modDesc.xml` und gemeinsamer Settings-Host wurden nach dessen Angaben lokal geprüft. **Diese Archivdateien wurden hier nicht empfangen und ihre SHA-256 nicht unabhängig nachgerechnet. Keine GitHub-Uploads und keine freigegebenen Downloads.** Die Hashes vom 14.11.2026 sind überholt.
 
 | Modul / Module | Version | ZIP | SHA-256 |
 |---|---|---|---|
-| A.P.S. (inkl. A.S.S. und Audio / incl. A.S.S. and audio) | 1.0.0.0 | `FS25_APS_AgricultureScience.zip` | `5072b6720ead3e59e13269086267cb2cdba0e6f52b3a265e94634f1abc7c3294` |
-| L.E.G.S. | 1.0.0.0 | `FS25_SmartGate_AgricultureScience.zip` | `d1c2e313021b57307d0b7d24a3cb3bf4633e55d696f80faa050a127a617db679` |
-| N.E.C.K. | 0.1.0.0 | `FS25_NECK_AgricultureScience.zip` | `07d3e10fbdd603b19901d835cd422ca5632263cb1db11b4082591b08d770c41f` |
+| A.P.S. (inkl. A.S.S. und Audio / incl. A.S.S. and audio) | 1.0.0.0 | `FS25_APS_AgricultureScience.zip` | `e543cc3cde6e1f7511dc889861932e4f79cab49b4a603b977370f123138fdf66` |
+| L.E.G.S. | 1.0.0.0 | `FS25_SmartGate_AgricultureScience.zip` | `7aa228b254fd149f4b4f9c3483788de9e7a506e526109424210e745e3514cdbb` |
+| N.E.C.K. | 0.1.0.0 | `FS25_NECK_AgricultureScience.zip` | `c599e496e3d6571a2adf981d493490abecdfdc3bfbfc78e759ee41177df1366b` |
 
 **Abhängigkeiten:** AutoDrive **3.0.1.4** ist die verwendete Referenz, keine daraus abgeleitete Mindestversion. AutoDrive ist separat zu installieren. N.E.C.K.-Filmfahrten benötigen aktives AutoDrive; die Vorschau funktioniert im besetzten Fahrzeug ohne aktives AutoDrive. L.E.G.S.-Torsteuerung läuft eigenständig; AutoDrive-Voröffnung ist optional. Die A.S.S.-Ansicht setzt geladenes A.P.S.+L.E.G.S. und eine registrierte Ansicht voraus.
 
@@ -34,9 +34,18 @@ Vom Nutzer bestätigte lokale Installation; Archive und Prüfsummen wurden im Ra
 
 **Separat in Entwicklung:** H.E.A.D. **0.1.0.0** mit 6,9 Sekunden Startanimation, neuem räumlichem Scan, Ergebnisbox am Feld und bis zu acht überlappenden Scanflächen pro Flug; visueller Ingame-Test offen. DevTools **0.5.0.0** ist ein internes Diagnosewerkzeug. Beide gehören nicht ins öffentliche Dreierpaket.
 
+### Vorgesehene GitHub-Bilder – lokale Dateien, noch nicht hochgeladen
+
+Der Projektinhaber meldet vier lokal exportierte Dateien im Archiv `AgricultureScience_GitHub_Bilder_20261115.zip`. **Es wurden noch keine Bilddateien ins Repository oder in einen GitHub-Release hochgeladen; Sichtprüfung und Bild-Hashes stehen aus.**
+
+- `aps-mod-icon.png`, `legs-mod-icon.png`, `neck-mod-icon.png`: jeweils gemeldete 512×512-PNG-Exporte aus den im `modDesc.xml` der aktuellen Mod-ZIPs referenzierten Icons. Nach Erhalt als kleine Modulübersicht in der README vorgesehen.
+- `ass-servicebereich-ingame.png`: gemeldeter echter Ingame-Screenshot mit cyanfarbener Bereichsbegrenzung und AD-Zielpfeil. Als Funktionsvorschau in der README und als Ergänzung in `docs/de/TUTORIAL_LEGS.md`, `docs/en/TUTORIAL_LEGS.md`, `docs/de/TUTORIAL_ASS.md` und `docs/en/TUTORIAL_ASS.md` vorgesehen; Bildinhalt zunächst gegen Build und Sprachfassung prüfen.
+
+Vorgesehener Repository-Zielordner nach Sichtprüfung: `docs/assets/release/20261115/`. Vorhandene historische UI-Illustrationen in `docs/assets/ui/` nicht kommentarlos überschreiben.
+
 ### Offene Prüfungen vor Veröffentlichung
 
-- [ ] Die drei **aktuellen, freigegebenen Original-Mod-ZIPs** liegen tatsächlich vor; Dateinamen, ZIP-Test/CRC, Verzeichnisstruktur, `modDesc.xml`, Mod-ID und Version sind geprüft.
+- [ ] Drei gemeldete **aktuelle Original-Mod-ZIPs** tatsächlich empfangen; CRC, Struktur, `modDesc.xml`, Mod-ID, Version und SHA-256 **unabhängig** prüfen und mit den gemeldeten Export-Hashes vergleichen.
 - [ ] Keine Duplikate/alten Fassungen/Privatpakete in den Releases; A.S.S. wird nicht fälschlich als eigene Mod-ZIP geführt.
 - [ ] Testmatrix mit **A.P.S. allein**, **L.E.G.S. allein**, **N.E.C.K. allein**, **A.P.S.+L.E.G.S.** und **allen drei gemeinsam**. Abhängigkeiten und nur teilweise verfügbare Funktionen korrekt erklären.
 - [x] Vom Nutzer gemeldete Lua-Tests: Teilinstallationen, fehlende/inkompatible Tourdaten, Modultext-Austausch bei gleichem Host bestanden (keine unabhängige Prüfung in dieser Dokumentationsarbeit).
@@ -46,6 +55,7 @@ Vom Nutzer bestätigte lokale Installation; Archive und Prüfsummen wurden im Ra
 - [ ] Erstinstallation und Upgradepfad mit Sicherungen; wichtige Migrationen aus älteren SmartGate-/AD-Zielen dokumentiert.
 - [ ] SP/MP/Dedi-Testumfang auf Basis der finalen ZIPs dokumentiert; ungetestete Fälle als solche ausweisen.
 - [ ] Rechte und Weitergabe für **alle tatsächlich enthaltenen** Sounds, Stimmen, Bilder, Code und Modelle dokumentiert; keine fremden privaten Assets einpacken.
+- [ ] Vier neue GitHub-PNGs tatsächlich empfangen, ansehen, Rechte/Herkunft sowie Hashes prüfen und erst dann in README und Doku einbinden.
 - [ ] Dokumentation, bekannte Einschränkungen, Changelog, Release Notes und Hashes auf exakt denselben Stand bringen.
 - [ ] **Freigabe des Projektinhabers**, erst danach Tag/öffentlicher Release/weitere Plattformen.
 
@@ -65,15 +75,15 @@ Ein neuer zentraler Release bekommt eine eigene Paketkennung und dokumentiert **
 
 An optional outer `AgricultureScience_Complete_<release>.zip` contains **exactly the same unchanged individual mod ZIPs**. Extract this outer bundle first; **do not** install it as a game mod. Publish module versions and SHA-256 hashes for each archive.
 
-### Confirmed local status – 14 November 2026
+### Export candidates – 15 November 2026
 
-User-confirmed local installation; archives and checksums were not independently verified as part of this documentation change. **Local test candidates, not approved downloads.**
+Newer ZIP exports reported by the project owner in the local `Build_Exports/` directory; CRC, `modDesc.xml` and shared settings host were reportedly checked locally. **The archives have not been received here and their SHA-256 values have not been independently recalculated. No GitHub uploads or approved downloads.** The 14 November checksums are superseded.
 
 | Modul / Module | Version | ZIP | SHA-256 |
 |---|---|---|---|
-| A.P.S. (inkl. A.S.S. und Audio / incl. A.S.S. and audio) | 1.0.0.0 | `FS25_APS_AgricultureScience.zip` | `5072b6720ead3e59e13269086267cb2cdba0e6f52b3a265e94634f1abc7c3294` |
-| L.E.G.S. | 1.0.0.0 | `FS25_SmartGate_AgricultureScience.zip` | `d1c2e313021b57307d0b7d24a3cb3bf4633e55d696f80faa050a127a617db679` |
-| N.E.C.K. | 0.1.0.0 | `FS25_NECK_AgricultureScience.zip` | `07d3e10fbdd603b19901d835cd422ca5632263cb1db11b4082591b08d770c41f` |
+| A.P.S. (inkl. A.S.S. und Audio / incl. A.S.S. and audio) | 1.0.0.0 | `FS25_APS_AgricultureScience.zip` | `e543cc3cde6e1f7511dc889861932e4f79cab49b4a603b977370f123138fdf66` |
+| L.E.G.S. | 1.0.0.0 | `FS25_SmartGate_AgricultureScience.zip` | `7aa228b254fd149f4b4f9c3483788de9e7a506e526109424210e745e3514cdbb` |
+| N.E.C.K. | 0.1.0.0 | `FS25_NECK_AgricultureScience.zip` | `c599e496e3d6571a2adf981d493490abecdfdc3bfbfc78e759ee41177df1366b` |
 
 **Dependencies:** AutoDrive **3.0.1.4** is the reference used, not an inferred minimum version. Install AutoDrive separately. N.E.C.K. filming drives require active AutoDrive; preview works in an occupied vehicle without active AutoDrive. L.E.G.S. gate control works independently; AutoDrive pre-opening is optional. The A.S.S. view requires loaded A.P.S.+L.E.G.S. and a registered view.
 
@@ -83,9 +93,18 @@ User-confirmed local installation; archives and checksums were not independently
 
 **Separate development:** H.E.A.D. **0.1.0.0** has a 6.9-second start animation, a new spatial scan, a result box at the field, and up to eight overlapping scan areas per flight; visual in-game testing is pending. DevTools **0.5.0.0** is an internal diagnostic tool. Neither belongs in the public three-mod package.
 
+### Proposed GitHub images – local only, not uploaded
+
+The project owner reports four locally exported files in `AgricultureScience_GitHub_Bilder_20261115.zip`. **No image files have been uploaded to the repository or a GitHub Release; visual inspection and image checksums remain pending.**
+
+- `aps-mod-icon.png`, `legs-mod-icon.png`, `neck-mod-icon.png`: reported 512×512 PNG exports of the icons referenced by the current mod ZIPs' `modDesc.xml`; intended as a compact module overview in README after delivery.
+- `ass-servicebereich-ingame.png`: reported actual in-game screenshot showing a cyan service-area boundary and AD destination arrow. Intended for the README feature preview and `docs/de/TUTORIAL_LEGS.md`, `docs/en/TUTORIAL_LEGS.md`, `docs/de/TUTORIAL_ASS.md`, `docs/en/TUTORIAL_ASS.md` after image/build/language review.
+
+Proposed repository destination after inspection: `docs/assets/release/20261115/`. Do not silently overwrite historical illustrations in `docs/assets/ui/`.
+
 ### Pre-release checks
 
-- [ ] Receive and verify the **actual approved current mod archives** (ZIP/CRC, structure, `modDesc.xml`, mod IDs and versions).
+- [ ] Receive the three **actual current mod archives**; independently verify CRC, structure, `modDesc.xml`, mod IDs, versions and SHA-256 against the owner-reported export hashes.
 - [ ] Keep A.S.S. within A.P.S.; exclude duplicate versions, DevTools and private packs.
 - [ ] Test each module alone, A.P.S.+L.E.G.S., and the full combination; document dependencies accurately.
 - [x] Record user-reported passing Lua tests: partial installations, missing/incompatible tour data, and module-text replacement with the same host (not independently verified in this documentation task).
@@ -95,6 +114,7 @@ User-confirmed local installation; archives and checksums were not independently
 - [ ] Verify fresh installation, upgrades and any SmartGate/AutoDrive target migration.
 - [ ] Record actually verified SP/MP/Dedi scenarios and clearly state unverified scenarios.
 - [ ] Audit redistribution rights for the exact shipped code, media and assets.
+- [ ] Receive and visually inspect all four planned GitHub PNGs, check provenance/rights and hashes, then add links to README and docs.
 - [ ] Align README, changelog, known limitations, release notes and checksums with the **same** release payload.
 - [ ] Obtain explicit owner approval before publishing a tag, release or ModHub submission.
 
